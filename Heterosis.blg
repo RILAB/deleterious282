@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Heterosis.aux
+The style file: genetics.bst
+Database file #1: Heterosis.bib
+You've used 46 entries,
+            2295 wiz_defined-function locations,
+            831 strings with 17347 characters,
+and the built_in function-call counts, 25055 in all, are:
+= -- 2731
+> -- 1579
+< -- 17
++ -- 626
+- -- 602
+* -- 2187
+:= -- 4497
+add.period$ -- 92
+call.type$ -- 46
+change.case$ -- 660
+chr.to.int$ -- 46
+cite$ -- 46
+duplicate$ -- 597
+empty$ -- 1209
+format.name$ -- 661
+if$ -- 4924
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 46
+newline$ -- 233
+num.names$ -- 151
+pop$ -- 553
+preamble$ -- 1
+purify$ -- 660
+quote$ -- 0
+skip$ -- 432
+stack$ -- 0
+substring$ -- 1446
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 276
+warning$ -- 0
+while$ -- 137
+width$ -- 0
+write$ -- 599

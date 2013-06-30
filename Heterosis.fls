@@ -170,6 +170,9 @@ INPUT ./FigureS1.png
 INPUT VennDiagram.png
 INPUT ./VennDiagram.png
 INPUT ./VennDiagram.png
+INPUT PerDelGenome_ch1cM.jpg
+INPUT ./PerDelGenome_ch1cM.jpg
+INPUT ./PerDelGenome_ch1cM.jpg
 INPUT PCA.png
 INPUT ./PCA.png
 INPUT ./PCA.png

@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Beavis, 1994]{Beavis1994}
+Beavis, W., 1994 $\,$
+\newblock {\em The power and deceit of QTL experiments: lessons from
+  comparitive QTL studies}.
+
 \bibitem[Benjamini and Hochberg, 1995]{Benjamini1995}
 Benjamini, Y., and Y.~Hochberg, 1995 $\,$
 \newblock Controlling the false discovery rate: a practical and powerful
@@ -19,8 +24,8 @@ Cao, J., K.~Schneeberger, S.~Ossowski, T.~G{\"u}nther, S.~Bender,
 \newblock Whole-genome sequencing of multiple arabidopsis thaliana populations.
 \newblock Nat Genet 43: 956--63.
 
-\bibitem[Charlesworth and B, 1987]{Charlesworth1987}
-Charlesworth, D., and C.~B, 1987 $\,$
+\bibitem[Charlesworth and Charlesworth, 1987]{Charlesworth1987}
+Charlesworth, D., and B.~Charlesworth, 1987 $\,$
 \newblock Inbreeding depression and its evolutionary consequences.
 \newblock Ann. Rev. Ecol. Syst. 18: 237--68.
 
@@ -130,6 +135,13 @@ Hill, W., and A.~Robertson, 1966 $\,$
 \newblock The effect of linkage on limits to artificial selection.
 \newblock Genet. Res. 8: 269--294.
 
+\bibitem[Hufford {\it et~al.}, 2012]{Hufford2012}
+Hufford, M.~B., X.~Xu, J.~van Heerwaarden, T.~Pyh{\"a}j{\"a}rvi, J.-M. Chia,
+  \emph{et~al.}, 2012 $\,$
+\newblock Comparative population genomics of maize domestication and
+  improvement.
+\newblock Nat Genet 44: 808--11.
+
 \bibitem[Hughes, 2005]{Hughes2005}
 Hughes, A.~L., 2005 $\,$
 \newblock Evidence for abundant slightly deleterious polymorphisms in bacterial
@@ -209,6 +221,11 @@ Pybus, O.~G., A.~Rambaut, R.~Belshaw, R.~P. Freckleton, A.~J. Drummond,
 \newblock Phylogenetic evidence for deleterious mutation load in rna viruses
   and its contribution to viral evolution.
 \newblock Mol Biol Evol 24: 845--52.
+
+\bibitem[Schnable and Springer, 2013]{Schnable2013}
+Schnable, P.~S., and N.~M. Springer, 2013 $\,$
+\newblock Progress toward understanding heterosis in crop plants.
+\newblock Annu Rev Plant Biol 64: 71--88.
 
 \bibitem[Schnable {\it et~al.}, 2009]{Schnable2009}
 Schnable, P.~S., D.~Ware, R.~S. Fulton, J.~C. Stein, F.~Wei, \emph{et~al.},

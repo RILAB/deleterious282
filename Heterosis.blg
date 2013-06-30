@@ -3,44 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Heterosis.aux
 The style file: genetics.bst
 Database file #1: Heterosis.bib
-You've used 46 entries,
+Warning--can't use both author and editor fields in Beavis1994
+Warning--empty publisher in Beavis1994
+You've used 49 entries,
             2295 wiz_defined-function locations,
-            831 strings with 17347 characters,
-and the built_in function-call counts, 25055 in all, are:
-= -- 2731
-> -- 1579
-< -- 17
-+ -- 626
-- -- 602
-* -- 2187
-:= -- 4497
-add.period$ -- 92
-call.type$ -- 46
-change.case$ -- 660
-chr.to.int$ -- 46
-cite$ -- 46
-duplicate$ -- 597
-empty$ -- 1209
-format.name$ -- 661
-if$ -- 4924
+            851 strings with 18352 characters,
+and the built_in function-call counts, 26577 in all, are:
+= -- 2891
+> -- 1674
+< -- 19
++ -- 665
+- -- 639
+* -- 2321
+:= -- 4768
+add.period$ -- 99
+call.type$ -- 49
+change.case$ -- 702
+chr.to.int$ -- 49
+cite$ -- 51
+duplicate$ -- 637
+empty$ -- 1283
+format.name$ -- 702
+if$ -- 5218
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 46
-newline$ -- 233
-num.names$ -- 151
-pop$ -- 553
+missing$ -- 50
+newline$ -- 247
+num.names$ -- 161
+pop$ -- 593
 preamble$ -- 1
-purify$ -- 660
+purify$ -- 703
 quote$ -- 0
-skip$ -- 432
+skip$ -- 461
 stack$ -- 0
-substring$ -- 1446
-swap$ -- 0
+substring$ -- 1517
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 276
-warning$ -- 0
-while$ -- 137
+type$ -- 292
+warning$ -- 2
+while$ -- 145
 width$ -- 0
-write$ -- 599
+write$ -- 635
+(There were 2 warnings)

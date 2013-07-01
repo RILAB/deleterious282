@@ -18,16 +18,13 @@
 \bibliographystyle{genetics}
 %\bibliographystyle{decsci}
 
+
 %----------------------------------------
 %AUTHORS
 %----------------------------------------
 \title{Pattern and distribution of deleterious mutations in maize}
 \author[1]{Sofiane Mezmouk}
 \author[1,2]{Jeffrey Ross-Ibarra}
-
-\affil[1]{Department of Plant Sciences, University of California, Davis, CA}
-\affil[2]{Genome Center, University of California, Davis, CA}
-
 \date{}
 
 %-----------------------------------------------------------------------------------------------------------------
@@ -97,11 +94,13 @@ Our results showed that a majority of deleterious alleles are segregating in mai
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 \subsection*{Plant material and phenotypic data}
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
 Phenotypic data from 247 maize inbred lines from the diversity panel described by \citet{Flint-Garcia2005} were analyzed in the current study (see supplemental data for a list of inbred lines). Each inbred lines was crossed to the stiff-stalk inbred B73 (population A) and both the inbred lines and their B73-hybrids were evaluated in three environments in 2003 \citep{Flint-Garcia2009}. A subset of 102 inbreds were additionally crossed to both B73 (population B1) and Mo17 (population B2) and evaluated in a single environment in 2006 \citep{Flint-Garcia2009}.
 
 Traits measured in both populations include cob diameter (cm), cob weight (g), ear length (cm), plant height (cm), individual kernel weight (g) and total kernel weight (g/ear). Additional traits including days to anthesis, plant yield (g/plant), tassel length (cm), tassel branch count, tassel angle, upper leaf angle, leaf width (cm), leaf length (cm), stem puncture resistance (kg/section), stem width (cm), 10 kernel weight (g) and kernel height (cm) were collected for population A, and seed number per ear was collected for populations B1 and B2. Details of the phenotypes and measurements can be found in \citep{Flint-Garcia2009}.
 
 \subsection*{Genotypic data}
+
 We made use of genotypic data from \citep{Larsson2013} for the full set of 247 lines, available to download from \url{http://www.panzea.org/lit/data_sets.html}. Lines were genotyped using the genotype-by-sequencing approach \citep[GBS;][]{Elshire2011} approach, resulting in a total of 437,650 SNPs that were partially imputed. Of these SNPs, 127,994 mapped to protein coding sequences representing 123,289 codons in 21,064 genes. The median (mean) percentage of missing data per SNP, including triallelic sites, was 1.06\% (2.52\%), while the percentage of heterozygous sites was 1.08\% (2.52\%). Only 4.5\% of SNPs had more than 10\% missing data (Supp Fig~\ref{figureS1}-A), and 0.18\% had more than 10\% heterozygous genotypes (Supp Fig~\ref{figureS1}-B). %were  these SNPs removed? => No I kept all SNPs for the predictions; my only filter was for the MAF in GWAS
 
 We estimated error rates by first comparing our genotyped inbred B73 to the B73 reference genome, then by comparison of all our genotypes to those from 7,225 overlapping SNPs on the maize SNP50 bead chip \citep{Cook2012}.  
@@ -139,6 +138,7 @@ Hybrid vigor for each individual was estimated by both best- and mid-parent hete
 where $\hat{G_{ij}}$, $\hat{G_{i}}$ and $\hat{G_{j}}$ are the genetic values of the hybrid and its two parents $i$ and $j$. $BPH_{min}$ was used instead of $BPH_{max}$ for days to anthesis, tassel branch count, tassel angle, upper leaf angle and rind penetrometer resistance.
 
 \subsubsection*{Association mapping}
+
 SNP association with the genetic values of the inbred lines were tested using the mixed linear model:
 %
 \[\hat{G}=\mathbf{1}\mu + M\vartheta +S\beta +Zu+\varepsilon\]
@@ -152,6 +152,7 @@ The association mapping tests were thus carried out between heterozygosity at a 
 %
 \[PH=\mathbf{1}{\mu}'+D\beta +H\vartheta +{\varepsilon }'\]  \\
 %
+
 where $PH$ is either $MPH$, $BPH_{max}$ or $BPH_{min}$, ${\mu}'$ is the mean of $PH$, $D$ is the genetic distance between the tester (B73 or Mo17) and each inbred line, $\beta$ is the fixed effect of that distance, $H$ is the tested locus, $\vartheta$ the effect of the locus, and ${\varepsilon }'$ is the vector of residuals assumed $N(0,\sigma_{ {\varepsilon}'}^{2}I)$.  
 SNPs were deemed to be statistically significant at $p\leq 0.001$; analyses were also conducted controlling the false discovery rate \citep{Benjamini1995} at 10\%. 
 
@@ -163,6 +164,7 @@ SNPs were deemed to be statistically significant at $p\leq 0.001$; analyses were
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 \subsection*{Prediction of deleterious mutations}
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
 In order to investigate deleterious mutations in a diverse set of maize inbred lines, we first applied two complementary approaches to predict deleterious mutations across the maize genome.  We applied the software packages SIFT \citep{Ng2003, Ng2006} and MAPP \citep{Stone2005} to the 39,656 genes in version 5b.60 of the maize filtered gene set  \citep[\url{http://www.maizesequence.org};][]{Schnable2009}. SIFT predicted amino acid change consequences for nearly 12 million codons in ~32,000 genes, while MAPP obtained predictions for a total of ~11 million codons in ~29,000 genes combined across the three ortholog datasets used (see methods). Among the codons covered by GBS SNPs, predictions were made by both SIFT and MAPP for 20,195 genes (95\%). More than 80\% of predictions were congruent between the two approaches; an overlap similar to what has been seen in \emph{Arabidopsis thaliana} and rice \citep{Gunther2010}. SIFT and MAPP respectively identified ~80\%  and 60 \% of amino acid polymorphisms as ``tolerated", with the remainder predicted to be premature stop codons or ``non-tolerated" amino acid changes; we will refer to these latter categories as predicted deleterious SNPs.
 
 We then took advantage of recently published genotyping-by-sequencing \citep{Elshire2011} data to survey potentially deleterious mutations across a panel of 247 diverse maize inbred lines \citep{Larsson2013}. The genotyping data covered 112,326 and 107,472 codons representing 19,145 and 18,255 genes in the SIFT and MAPP data, respectively. Nearly 50\% of these codons showed no amino acid polymorphism in each dataset; while the vast majority of these monomorphic amino acids were due to synonymous polymorphisms in the GBS data, several hundred predicted deleterious amino acids were fixed across all maize lines analyzed (Supplemental Table~\ref{tableS1}).
@@ -172,6 +174,7 @@ We then took advantage of recently published genotyping-by-sequencing \citep{Els
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 
 %general SFS
+
 Across all lines, the site frequency spectrum (SFS) of coding SNPs showed an excess of rare variants compared to neutral expectations, with 45\% of SNPs at a frequency lower than 5\% across all lines. Even so, nonsynonymous SNPs showed an excess of rare variants when compared to synonymous SNPs (Mann-Whitney U test p-value $< 2.2\ 10^{-16}$; Figure~\ref{sfs_non_syn}-A), and putatively deleterious SNPs showed a marked excess of rare variants (Mann-Whitney U test p-value $< 2.2\ 10^{-16}$; Figure~\ref{sfs_non_syn}-B) compared to other nonsynonymous variants. These observations are consistent with the action of weak purifying selection \citep{Fay2001} and provide a measure of independent corroboration of the utility of MAPP and SIFT in predicting deleterious variants.
 
 % SFS figure
@@ -183,6 +186,7 @@ Across all lines, the site frequency spectrum (SFS) of coding SNPs showed an exc
   \end{center}
 \end{figure*}
 %-------------------------------------------------------------------
+
 
 Although most predicted deleterious alleles were rare, 923 were found segregating at high frequency ($\geq 0.80$) across all lines.  To test whether these alleles may have been driven to high frequency by selection during domestication \citep{Lu2006} we analyzed the pattern of haplotype sharing across the genome \citep{Toomajian2006} within each of the tropical, stiff-stalk, non-stiff stalk and mixed genetic groups as defined by \citet{Flint-Garcia2005}.  Only 87 SNPs (9.4\% of all tests) showed signs of positive selection in at least one of the genetic groups with only 16 SNPs in candidate regions for selection during maize domestication or improvement \citep{Hufford2012}, providing little evidence, in the analyzed material, to support linked hitchhiking during domestication as major influence on deleterious alleles in the genome.
  
@@ -202,6 +206,7 @@ Our results do not provide strong support for this explanation, perhaps suggesti
 %-------------------------------------------------------------------
 
 %per line SNPs
+
 Individual lines varied considerably in their content of predicted deleterious alleles, carrying between 4 and 16\% of all predicted deleterious alleles. Lines from the stiff stalk heterotic group carried on average fewer deleterious mutations (9\%) than did lines from other groups (14-15\%).  Although a historically low $N_{e}$ \citep{Messmer1991} could explain this observation, other groups with low $N_{e}$ such as the popcorns do not show such a trend.  Instead, we posit that both the SIFT and MAPP algorithms may be biased against alleles found in the reference B73 genome which belongs to the stiff stalk heterotic group; similar bias has recently been described in analyses of the human genome \citep{Simons2013}.
 
 %overall IBS, shared alleles
@@ -210,6 +215,7 @@ Allele sharing at predicted deleterious SNPs generally followed genome-wide patt
 % Fst
 Across all genetic groups, levels of population differentiation were slightly lower for predicted deleterious (mean $\mathrm{F}_{\mathrm{ST}}=0.07$) than non-deleterious (mean $\mathrm{F}_{\mathrm{ST}}=0.08$) SNPs (Mann-Whitney U test p-value $< 2.2\ 10^{-16}$ ; Figure~\ref{fst_dist}). After correcting for allele frequencies in both classes, however, these differences disappeared, and the proportion of deleterious SNPs in the top 1\% was not significantly different from the proportion observed for synonymous SNPs (Fisher's Exact Test p-value $= 0.94$) or all SNPs in genic regions (Fisher's Exact Test p-value $= 0.51$).
 Nonetheless, after controlling for allele frequency a number of predicted deleterious SNPs do show signs of significant differentiation among groups (Figure~\ref{fst_chr1}). These SNPs are located in 287 genes (30 genes with 2 or more deleterious SNPs in the top 1\%) including 11 and 9 genes previously identified as candidates or in selected regions during respectively maize improvement and domestication \citep{Hufford2012}.
+
 
 % fst figure
 %-------------------------------------------------------------------
@@ -247,13 +253,14 @@ Nonetheless, after controlling for allele frequency a number of predicted delete
 %-------------------------------------------------------------------
 
 %joint SFS
-Comparisons of the predicted deleterious SFS between stiff stalk, non stiff stalk, and tropical groups (Figure~\ref{jfs}) mirrored patterns of between-group  $\mathrm{F}_{\mathrm{ST}}$, revealing deleterious SNPs at generally low frequencies and few fixed differences as well as higher differentiation in comparisons including the stiff stalk group (Figure~\ref{jfs}). Non fixation of deleterious alleles within groups is in agreement with observed heterosis in crosses of inbred lines from the same group. Although, frequency differences of deleterious alleles leads to higher heterosis of between-group crosses as a result of less deleterious alleles shared and in agreement with previous studies \citep{Whitlock2003}.
 
+Comparisons of the predicted deleterious SFS between stiff stalk, non stiff stalk, and tropical groups (Figure~\ref{jfs}) mirrored patterns of between-group  $\mathrm{F}_{\mathrm{ST}}$, revealing deleterious SNPs at generally low frequencies and few fixed differences as well as higher differentiation in comparisons including the stiff stalk group (Figure~\ref{jfs}). Non fixation of deleterious alleles within groups is in agreement with observed heterosis in crosses of inbred lines from the same group. Although, frequency differences of deleterious alleles leads to higher heterosis of between-group crosses as a result of less deleterious alleles shared and in agreement with previous studies \citep{Whitlock2003}.
 
 
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 \subsection*{Effect of deleterious mutations on traits of interest}
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
 We performed a genome wide association analysis to investigate the role of predicted deleterious alleles in observed levels of heterosis and inbreeding depression.  We looked for association of all SNPs with a $MAF>0.05$ with 17 traits evaluated in two populations while controlling for population structure (see Methods). Analyses were carried out using the genetic values of inbred lines and both mid-parent and best-parent heterosis.
 
 Genome wide association results using the genetic values of inbred lines identified between 219 (cob diameter) and 598 (cob length) significant SNPs with a high proportion (up to 70\%) of genic loci. Predicted deleterious SNPs showed, however, little evidence for significant enrichments among genome wide association results (Table \ref{popA_sig_enirchment} and Supplemental Table \ref{popB_sig_enirchment}). 
@@ -275,6 +282,7 @@ Although only 124,129 protein coding SNPs were covered by our analyses,  which i
 \subsubsection*{Acknowledgments}
 We would like to thank S. Flint-Garcia and S. Takuno for help with data analysis and G. Coop, J. Gerke, and P. Ralph for helpful comments. 
 This project was supported by Agriculture and Food Research Initiative Competitive Grant 2009-01864 from the USDAÕs National Institute of Food and Agriculture as well as a grant from DuPont Pioneer.
+
 %Ed for an early access to the data?
 
 %----------------------------------------
@@ -291,16 +299,27 @@ This project was supported by Agriculture and Food Research Initiative Competiti
 \section*{Tables}
 
 
+<<<<<<< HEAD
+=======
+%I redid the column headers on the tables, as I'm not fond of Enri etc.  I think simple letters are sufficient, but feel free to change if you disagree.
+
+
+>>>>>>> 33b672c40e2f172db99e3e726b46b8f3e1161f82
 %Table1
 %-------------------------------------------------------------------
 \begin{table*}[ht]
   \begin{center}
+
     \caption[]{Total number of significant SNPs (\emph{n}) and fold enrichment (\emph{f}) in genie regions, for loci with deleterious mutations in population A. Numbers marked with * are statistically significant.}
 {\fontsize{10}{10}\sf
       \begin{tabular}{l|rr|rr|rr} 
 \toprule
 \multicolumn{1}{c}{}	&	\multicolumn{2}{c}{Inbreds}	&	\multicolumn{2}{c}{BPH}	&	\multicolumn{2}{c}{MPH}	\\	\hline 
+<<<<<<< HEAD
 Traits	& 	\emph{n} 	& 	\emph{f} 	& 	\emph{n} 	& 	\emph{f} 	& 	\emph{n} 	& 	\emph{f}	\\	\hline \hline 
+=======
+Traits	& 	\emph{S*} 	& 	\emph{f} 	& 	\emph{S*} 	& 	\emph{f} 	& 	\emph{S*} 	& 	\emph{f}	\\	\hline \hline 
+>>>>>>> 33b672c40e2f172db99e3e726b46b8f3e1161f82
 DTT 	& 	475 	& 	1.05 	& 	3372 	& 	1.15* 	& 	1123 	& 	1.12	\\
 TSLLEN 	& 	458 	& 	0.81 	& 	297 	& 	1.21 	& 	365 	& 	1.16	\\
 TSLBCHCNT 	& 	300 	& 	0.98 	& 	4077 	& 	0.98 	& 	1257 	& 	1.12	\\
@@ -324,6 +343,7 @@ TOTKNLWT 	& 	256 	& 	0.88 	& 	3781 	& 	0.98 	& 	2045 	& 	0.95	\\
   \end{center}
 \end{table*}
 %-------------------------------------------------------------------
+
 
 %removed correlation tables
 
@@ -362,7 +382,6 @@ TOTKNLWT	&	101	&	1.18	&	1228	&	1.11*	&	714	&	1.07	\\
 %-------------------------------------------------------------------
 
 
-
 %----------------------------------------
 % SUPPLEMENTALS
 %----------------------------------------
@@ -371,6 +390,7 @@ TOTKNLWT	&	101	&	1.18	&	1228	&	1.11*	&	714	&	1.07	\\
 \setcounter{table}{0}
 \renewcommand{\figurename}{Sup. Fig.}
 \renewcommand{\tablename}{Sup. Table}
+
 
 \section*{Supplementals}
 
@@ -473,6 +493,7 @@ Syntenic genes		&	45,412 (7,745)	&	32,222 (5,488)	&	-	\\
   \end{center}
 \end{table*}
 %-------------------------------------------------------------------
+
 
 %Table2
 %-------------------------------------------------------------------

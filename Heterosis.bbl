@@ -101,6 +101,12 @@ Flint-Garcia, S.~A., A.-C. Thuillet, J.~Yu, G.~Pressoir, S.~M. Romero,
   quantitative trait locus dissection.
 \newblock Plant J 44: 1054--64.
 
+\bibitem[Fournier-Level {\it et~al.}, 2011]{Fournier-Level2011}
+Fournier-Level, A., A.~Korte, M.~Cooper, M.~Nordborg, J.~Schmitt,
+  \emph{et~al.}, 2011 $\,$
+\newblock A map of local adaptation in arabidopsis thaliana.
+\newblock Science 334: 86--89.
+
 \bibitem[Gl{\'e}min {\it et~al.}, 2003]{Glemin2003}
 Gl{\'e}min, S., J.~Ronfort and T.~Bataillon, 2003 $\,$
 \newblock Patterns of inbreeding depression and architecture of the load in
@@ -184,12 +190,6 @@ Lu, J., T.~Tang, H.~Tang, J.~Huang, S.~Shi, \emph{et~al.}, 2006 $\,$
   hypothesis on the cost of domestication.
 \newblock Trends Genet 22: 126--31.
 
-\bibitem[Lyons and Freeling, 2008]{Lyons2008}
-Lyons, E., and M.~Freeling, 2008 $\,$
-\newblock How to usefully compare homologous plant genes and chromosomes as dna
-  sequences.
-\newblock Plant J 53: 661--73.
-
 \bibitem[McMullen {\it et~al.}, 2009]{McMullen2009}
 McMullen, M.~D., S.~Kresovich, H.~S. Villeda, P.~Bradbury, H.~Li,
   \emph{et~al.}, 2009 $\,$
@@ -221,6 +221,17 @@ Pybus, O.~G., A.~Rambaut, R.~Belshaw, R.~P. Freckleton, A.~J. Drummond,
 \newblock Phylogenetic evidence for deleterious mutation load in rna viruses
   and its contribution to viral evolution.
 \newblock Mol Biol Evol 24: 845--52.
+
+\bibitem[Romay {\it et~al.}, 2013]{Romay2013}
+Romay, M., M.~Millard, J.~Glaubitz, J.~Peiffer, K.~Swarts, \emph{et~al.}, 2013
+  $\,$
+\newblock Comprehensive genotyping of the usa national maize inbred seed bank.
+\newblock Genome Biology 14: R55.
+
+\bibitem[Schnable {\it et~al.}, 2012]{Schnable2012}
+Schnable, J.~C., M.~Freeling and E.~Lyons, 2012 $\,$
+\newblock Genome-wide analysis of syntenic gene deletion in the grasses.
+\newblock Genome Biol Evol 4: 265--77.
 
 \bibitem[Schnable and Springer, 2013]{Schnable2013}
 Schnable, P.~S., and N.~M. Springer, 2013 $\,$
@@ -256,11 +267,6 @@ Tellier, A., I.~Fischer, C.~Merino, H.~Xia, L.~Camus-Kulandaivelu,
 \newblock Fitness effects of derived deleterious mutations in four closely
   related wild tomato species with spatial structure.
 \newblock Heredity (Edinb) 107: 189--99.
-
-\bibitem[Tenaillon and Charcosset, 2011]{Tenaillon2011}
-Tenaillon, M.~I., and A.~Charcosset, 2011 $\,$
-\newblock A european perspective on maize history.
-\newblock C R Biol 334: 221--8.
 
 \bibitem[Thornton, 2003]{Thornton2003}
 Thornton, K., 2003 $\,$

@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Heterosis"] 1373297422 "Heterosis.aux" "Heterosis.bbl" "Heterosis" 1373297424
+["bibtex Heterosis"] 1373335433 "Heterosis.aux" "Heterosis.bbl" "Heterosis" 1373336915
   "./genetics.bst" 1373297377 25901 9a7733d3339cbe098d5a6ea8ca0e9015 ""
-  "Heterosis.aux" 1373297424 9774 481c9baa6c876290f5afa99a7cd19ec5 ""
+  "Heterosis.aux" 1373336837 10334 92fa339f6560219810402c627f5581a1 ""
   "Heterosis.bcf" 0 -1 0 ""
-  "Heterosis.bib" 1373297376 162847 83b46dc9026f1b2e3b1b2bdc334de6c8 ""
+  "Heterosis.bib" 1373301411 164786 d1b418de8c3307819975a70bb705d675 ""
   (generated)
   "Heterosis.bbl"
   "Heterosis.blg"
-["pdflatex"] 1373297422 "Heterosis.tex" "Heterosis.pdf" "Heterosis" 1373297424
+["pdflatex"] 1373336835 "Heterosis.tex" "Heterosis.pdf" "Heterosis" 1373336915
   "/usr/local/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -100,13 +100,14 @@
   "/usr/local/texlive/2012/texmf-var/web2c/pdftex/pdflatex.fmt" 1341108725 3691572 80746d7cec090b0770bc87079bef471d ""
   "/usr/local/texlive/2012/texmf.cnf" 1341108668 572 7ea7194897937febeb63145e1c3a1f03 ""
   "/usr/local/texlive/2012/texmf/web2c/texmf.cnf" 1336865692 31299 729e216d9b945005c0d4b079c0500bc9 ""
+  "BoxplotBPH.png" 1373334607 79821 7cb5cf5a7dcfe3beee25728660c5a601 ""
   "FigureS1.png" 1373297376 90661 b588a2f8cdc69b3c880b3b2db80a67e5 ""
   "Fst.png" 1373297376 94191 ca2cd83d71a6d1355c019e2a8b9101f3 ""
   "Fst2.png" 1373297376 319674 31560a08e6149c2f02168d12fab380e9 ""
-  "Heterosis.aux" 1373297424 9774 481c9baa6c876290f5afa99a7cd19ec5 ""
-  "Heterosis.bbl" 1373297422 11975 462cc59805da55045f506bb7c417e3b8 "bibtex Heterosis"
-  "Heterosis.out" 1373297422 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Heterosis.tex" 1373297376 46751 dd1128aca059c80c0dbfcc3a13c67c7b ""
+  "Heterosis.aux" 1373336837 10334 92fa339f6560219810402c627f5581a1 ""
+  "Heterosis.bbl" 1373335433 11941 fbb386765c148c0bf7c4888e94f37a2f "bibtex Heterosis"
+  "Heterosis.out" 1373336836 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Heterosis.tex" 1373336833 45971 6924dd1b04a0363006ef67b3b001b12d ""
   "PCA.png" 1373297377 125701 18230fa0ea3210d41126f4488bd22c9a ""
   "PerDelGenome_ch1.jpg" 1373297377 49310 9062d447c21000cc51b7da0e7abdf0b5 ""
   "PerDelGenome_ch1cM.jpg" 1373297377 70037 1245978c90ac2dda2bb65447ef1a43fa ""

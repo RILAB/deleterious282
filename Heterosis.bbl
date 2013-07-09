@@ -45,11 +45,6 @@ Chia, J.-M., C.~Song, P.~J. Bradbury, D.~Costich, N.~de~Leon, \emph{et~al.},
 \newblock Maize hapmap2 identifies extant variation from a genome in flux.
 \newblock Nat Genet 44: 803--7.
 
-\bibitem[Chun and Fay, 2009]{Chun2009}
-Chun, S., and J.~C. Fay, 2009 $\,$
-\newblock Identification of deleterious mutations within three human genomes.
-\newblock Genome Res 19: 1553--61.
-
 \bibitem[Chun and Fay, 2011]{Chun2011}
 Chun, S., and J.~C. Fay, 2011 $\,$
 \newblock Evidence for hitchhiking of deleterious mutations within the human
@@ -74,6 +69,13 @@ Doniger, S.~W., H.~S. Kim, D.~Swain, D.~Corcuera, M.~Williams, \emph{et~al.},
   2008 $\,$
 \newblock A catalog of neutral and deleterious polymorphism in yeast.
 \newblock PLoS Genet 4: e1000183.
+
+\bibitem[East, 1908]{East1908}
+East, E., 1907-1908 $\,$
+\newblock {\em Reports of the Connecticut Agricultural Experiment Station for
+  Years}. Volume Inbreeding in corn,.
+\newblock Connecticut Agricultural Experiment Station, New Haven, Connecticut
+  Agricultural Experiment Station, New Haven,CT.
 
 \bibitem[Elshire {\it et~al.}, 2011]{Elshire2011}
 Elshire, R.~J., J.~C. Glaubitz, Q.~Sun, J.~A. Poland, K.~Kawamoto,
@@ -153,12 +155,6 @@ Hughes, A.~L., 2005 $\,$
 \newblock Evidence for abundant slightly deleterious polymorphisms in bacterial
   populations.
 \newblock Genetics 169: 533--8.
-
-\bibitem[Johnson {\it et~al.}, 2005]{Johnson2005}
-Johnson, M., J.~Houck and C.~Chen, 2005 $\,$
-\newblock Screening for deleterious nonsynonymous single-nucleotide
-  polymorphisms in genes involved in steroid hormone metabolism and response.
-\newblock Cancer Epidemiol Biomarkers Prev 15: 1326--9.
 
 \bibitem[Keller and Waller, 2002]{Keller2002}
 Keller, L.~F., and D.~M. Waller, 2002 $\,$
@@ -243,6 +239,11 @@ Schnable, P.~S., D.~Ware, R.~S. Fulton, J.~C. Stein, F.~Wei, \emph{et~al.},
   2009 $\,$
 \newblock The b73 maize genome: complexity, diversity, and dynamics.
 \newblock Science 326: 1112--5.
+
+\bibitem[Shull, 1908]{Shull1908}
+Shull, G.~H., 1908 $\,$
+\newblock The composition of a field of maize.
+\newblock The Journal of Heridity 4: 296--301.
 
 \bibitem[Simons {\it et~al.}, 2013]{Simons2013}
 Simons, Y.~B., M.~C. Turchin and J.~K. Pritchard, 2013 $\,$

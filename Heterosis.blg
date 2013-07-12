@@ -1,43 +1,43 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Heterosis.aux
-The style file: genetics.bst
+The style file: apalike.bst
 Database file #1: Heterosis.bib
 Warning--can't use both author and editor fields in Beavis1994
 Warning--empty publisher in Beavis1994
 You've used 50 entries,
-            2295 wiz_defined-function locations,
-            863 strings with 18846 characters,
-and the built_in function-call counts, 27196 in all, are:
-= -- 2953
-> -- 1724
+            1935 wiz_defined-function locations,
+            816 strings with 18628 characters,
+and the built_in function-call counts, 30529 in all, are:
+= -- 2581
+> -- 2513
 < -- 19
-+ -- 691
-- -- 663
-* -- 2376
-:= -- 4893
-add.period$ -- 102
++ -- 976
+- -- 948
+* -- 3197
+:= -- 5540
+add.period$ -- 149
 call.type$ -- 50
 change.case$ -- 722
 chr.to.int$ -- 50
 cite$ -- 52
-duplicate$ -- 651
-empty$ -- 1303
-format.name$ -- 724
-if$ -- 5325
+duplicate$ -- 699
+empty$ -- 1438
+format.name$ -- 1020
+if$ -- 5592
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 52
 newline$ -- 252
-num.names$ -- 161
+num.names$ -- 150
 pop$ -- 617
 preamble$ -- 1
 purify$ -- 724
 quote$ -- 0
-skip$ -- 470
+skip$ -- 518
 stack$ -- 0
 substring$ -- 1522
-swap$ -- 4
+swap$ -- 52
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0

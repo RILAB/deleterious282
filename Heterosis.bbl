@@ -19,19 +19,12 @@ Boeckmann, B., Bairoch, A., Apweiler, R., Blatter, M., Estreicher, A.,
   2003.
 \newblock {\em Nucleic Acids Res}, 31(1):365--370.
 
-\bibitem[Cao et~al., 2011]{Cao2011}
-Cao, J., Schneeberger, K., Ossowski, S., G{\"u}nther, T., Bender, S., Fitz, J.,
-  Koenig, D., Lanz, C., Stegle, O., Lippert, C., Wang, X., Ott, F., M{\"u}ller,
-  J., Alonso-Blanco, C., Borgwardt, K., Schmid, K.~J., and Weigel, D. (2011).
-\newblock Whole-genome sequencing of multiple arabidopsis thaliana populations.
-\newblock {\em Nat Genet}, 43(10):956--63.
-
 \bibitem[Charlesworth and Charlesworth, 1987]{Charlesworth1987}
 Charlesworth, D. and Charlesworth, B. (1987).
 \newblock Inbreeding depression and its evolutionary consequences.
 \newblock {\em Ann. Rev. Ecol. Syst.}, 18:237--68.
 
-\bibitem[Charlesworth et~al., 1993]{Charlesworth1993}
+\bibitem[Charlesworth et~al., 1993]{Charlesworth1993fp}
 Charlesworth, D., Morgan, M.~T., and B, C. (1993).
 \newblock Mutation accumulation in finite populations.
 \newblock {\em Journal of Heredity}, 84:321--325.
@@ -58,6 +51,13 @@ Chun, S. and Fay, J.~C. (2011).
   genome.
 \newblock {\em PLoS Genet}, 7(8):e1002240.
 
+\bibitem[Cohen et~al., 2004]{Cohen2004}
+Cohen, J.~C., Kiss, R.~S., Pertsemlidis, A., Marcel, Y.~L., McPherson, R., and
+  Hobbs, H.~H. (2004).
+\newblock Multiple rare alleles contribute to low plasma levels of hdl
+  cholesterol.
+\newblock {\em Science}, 305(5685):869--72.
+
 \bibitem[Cook et~al., 2012]{Cook2012}
 Cook, J.~P., McMullen, M.~D., Holland, J.~B., Tian, F., Bradbury, P.,
   Ross-Ibarra, J., Buckler, E.~S., and Flint-Garcia, S.~A. (2012).
@@ -65,17 +65,18 @@ Cook, J.~P., McMullen, M.~D., Holland, J.~B., Tian, F., Bradbury, P.,
   association mapping and inbred association panels.
 \newblock {\em Plant Physiol}, 158(2):824--34.
 
+\bibitem[Cummings and Clegg, 1998]{Cummings1998}
+Cummings, M.~P. and Clegg, M.~T. (1998).
+\newblock Nucleotide sequence diversity at the alcohol dehydrogenase 1 locus in
+  wild barley (hordeum vulgare ssp. spontaneum): an evaluation of the
+  background selection hypothesis.
+\newblock {\em PNAS}, 95:5637--5642.
+
 \bibitem[Dickson et~al., 2010]{Dickson2010}
 Dickson, S.~P., Wang, K., Krantz, I., Hakonarson, H., and Goldstein, D.~B.
   (2010).
 \newblock Rare variants create synthetic genome-wide associations.
 \newblock {\em PLoS Biol}, 8(1):e1000294.
-
-\bibitem[Doniger et~al., 2008]{Doniger2008}
-Doniger, S.~W., Kim, H.~S., Swain, D., Corcuera, D., Williams, M., Yang, S.-P.,
-  and Fay, J.~C. (2008).
-\newblock A catalog of neutral and deleterious polymorphism in yeast.
-\newblock {\em PLoS Genet}, 4(8):e1000183.
 
 \bibitem[East, 1908]{East1908}
 East, E. (1907-1908).
@@ -95,6 +96,11 @@ Elshire, R.~J., Glaubitz, J.~C., Sun, Q., Poland, J.~A., Kawamoto, K., Buckler,
 Fay, J., Wyckoff, G., and CI, W. (2001).
 \newblock Positive and negative selection on the human genome.
 \newblock {\em Genetics}, 158:1227--1234.
+
+\bibitem[Felsenstein, 1974]{Felsenstein1974}
+Felsenstein, J. (1974).
+\newblock The evolutionary advantage of recombination.
+\newblock {\em Genetics}, 78(2):737--756.
 
 \bibitem[Flint-Garcia et~al., 2009]{Flint-Garcia2009}
 Flint-Garcia, S.~A., Buckler, E.~S., Tiffin, P., Ersoz, E., and Springer, N.~M.
@@ -116,6 +122,17 @@ Fournier-Level, A., Korte, A., Cooper, M., Nordborg, M., Schmitt, J., and
   Wilczek, A. (2011).
 \newblock A map of local adaptation in arabidopsis thaliana.
 \newblock {\em Science}, 334(6052):86--89.
+
+\bibitem[Garcia et~al., 2008]{Garcia2008}
+Garcia, A. A.~F., Wang, S., Melchinger, A.~E., and Zeng, Z.-B. (2008).
+\newblock Quantitative trait loci mapping and the genetic basis of heterosis in
+  maize and rice.
+\newblock {\em Genetics}, 180(3):1707--24.
+
+\bibitem[Gibson, 2012]{Gibson2012}
+Gibson, G. (2012).
+\newblock Rare and common variants: twenty arguments.
+\newblock {\em Nat Rev Genet}, 13(2):135--45.
 
 \bibitem[Gl{\'e}min et~al., 2003]{Glemin2003}
 Gl{\'e}min, S., Ronfort, J., and Bataillon, T. (2003).
@@ -169,10 +186,16 @@ Hughes, A.~L. (2005).
   populations.
 \newblock {\em Genetics}, 169(2):533--8.
 
-\bibitem[Keller and Waller, 2002]{Keller2002}
-Keller, L.~F. and Waller, D.~M. (2002).
-\newblock Inbreeding effects in wild populations.
-\newblock {\em Trends in Ecology and Evolution}, 17(5):230--241.
+\bibitem[Kimura, 1983]{Kimura1983}
+Kimura, M. (1983).
+\newblock {\em The neutral theory of molecular evolution}.
+\newblock Cambridge University Press, UK: Cambridge.
+
+\bibitem[Lande, 1994]{Lande1994}
+Lande, R. (1994).
+\newblock Risk of population extinction from fixation of new deleterious
+  mutations.
+\newblock {\em Evolution}, 48:1460--1469.
 
 \bibitem[Larkin et~al., 2007]{Larkin2007}
 Larkin, M.~A., Blackshields, G., Brown, N.~P., Chenna, R., McGettigan, P.~A.,
@@ -200,6 +223,11 @@ Lu, J., Tang, T., Tang, H., Huang, J., Shi, S., and Wu, C.-I. (2006).
 \newblock The accumulation of deleterious mutations in rice genomes: a
   hypothesis on the cost of domestication.
 \newblock {\em Trends Genet}, 22(3):126--31.
+
+\bibitem[Lynch and Gabriel, 1990]{Lynch1990}
+Lynch, M.~S. and Gabriel, W. (1990).
+\newblock Mutationload and the survical of small populations.
+\newblock {\em Evolution}, 44:1725--1737.
 
 \bibitem[McMullen et~al., 2009]{McMullen2009}
 McMullen, M.~D., Kresovich, S., Villeda, H.~S., Bradbury, P., Li, H., Sun, Q.,
@@ -230,12 +258,15 @@ Ng, P.~C. and Henikoff, S. (2006).
   function.
 \newblock {\em Annu Rev Genomics Hum Genet}, 7:61--80.
 
-\bibitem[Pybus et~al., 2007]{Pybus2007}
-Pybus, O.~G., Rambaut, A., Belshaw, R., Freckleton, R.~P., Drummond, A.~J., and
-  Holmes, E.~C. (2007).
-\newblock Phylogenetic evidence for deleterious mutation load in rna viruses
-  and its contribution to viral evolution.
-\newblock {\em Mol Biol Evol}, 24(3):845--52.
+\bibitem[Ohta, 1973]{Ohta1973}
+Ohta, T. (1973).
+\newblock Slightly deleterious mutant substitutions in evolution.
+\newblock {\em Nature}, 246:96--98.
+
+\bibitem[Pritchard et~al., 2000]{Pritchard2000}
+Pritchard, J.~K., Stephens, M., and Donnelly, P. (2000).
+\newblock Inference of population structure using multilocus genotype data.
+\newblock {\em Genetics}, 155:945--959.
 
 \bibitem[Romay et~al., 2013]{Romay2013}
 Romay, M., Millard, M., Glaubitz, J., Peiffer, J., Swarts, K., Casstevens, T.,
@@ -286,6 +317,11 @@ Schnable, P.~S., Ware, D., Fulton, R.~S., Stein, J.~C., Wei, F., Pasternak, S.,
 \newblock The b73 maize genome: complexity, diversity, and dynamics.
 \newblock {\em Science}, 326(5956):1112--5.
 
+\bibitem[Schnell and Cockerham, 1992]{Schnell1992}
+Schnell, F. and Cockerham, C. (1992).
+\newblock Multiplicative vs. arbitrary gene action in heterosis.
+\newblock {\em Genetics}, 131(2):461--469.
+
 \bibitem[Shull, 1908]{Shull1908}
 Shull, G.~H. (1908).
 \newblock The composition of a field of maize.
@@ -297,16 +333,23 @@ Simons, Y.~B., Turchin, M.~C., and Pritchard, J.~K. (2013).
   history.
 \newblock {\em http://arxiv.org/abs/1305.2061}.
 
+\bibitem[Smigrodzki et~al., 2004]{Smigrodzki2004}
+Smigrodzki, R., Parks, J., and Parker, W.~D. (2004).
+\newblock High frequency of mitochondrial complex i mutations in parkinson's
+  disease and aging.
+\newblock {\em Neurobiol Aging}, 25(10):1273--81.
+
 \bibitem[Stone and Sidow, 2005]{Stone2005}
 Stone, E.~A. and Sidow, A. (2005).
 \newblock Physicochemical constraint violation by missense substitutions
   mediates impairment of protein function and disease severity.
 \newblock {\em Genome Res}, 15(7):978--86.
 
-\bibitem[Subramanian, 2012]{Subramanian2012}
-Subramanian, S. (2012).
-\newblock The abundance of deleterious polymorphisms in humans.
-\newblock {\em Genetics}, 190(4):1579--83.
+\bibitem[Strable and Scanlon, 2009]{Strable2009}
+Strable, J. and Scanlon, M.~J. (2009).
+\newblock Maize (zea mays): a model organism for basic and applied research in
+  plant biology.
+\newblock {\em Cold Spring Harb Protoc}, 2009(10):pdb.emo132.
 
 \bibitem[Tellier et~al., 2011]{Tellier2011}
 Tellier, A., Fischer, I., Merino, C., Xia, H., Camus-Kulandaivelu, L.,
@@ -333,6 +376,12 @@ Toomajian, C., Hu, T.~T., Aranzana, M.~J., Lister, C., Tang, C., Zheng, H.,
   arabidopsis genome.
 \newblock {\em PLoS Biol}, 4(5):e137.
 
+\bibitem[Wang et~al., 1999]{Wang1999}
+Wang, J., Hill, W., Charlesworth, D., and Charlesworth, B. (1999).
+\newblock Dynamics of inbreeding depression due to deleterious mutations in
+  small populations: mutation parameters and inbreeding rate.
+\newblock {\em Genet. Res.}, 74:165--178.
+
 \bibitem[Whitlock et~al., 2000]{Whitlock2000}
 Whitlock, M., Ingvarsson, P., and Hatfield, T. (2000).
 \newblock Local drift load and the heterosis of interconnected populations.
@@ -343,5 +392,11 @@ Whitlock, M.~C., Grisworld, C.~K., and Peters, A.~D. (2003).
 \newblock Compensating for meltdown: The critical effective size of a
   population with deleterious and compendatory mutations.
 \newblock {\em Ann. Zool. Fennici}, 40:169--183.
+
+\bibitem[Zhu et~al., 2004]{Zhu2004}
+Zhu, Y., Spitz, M., Amos, C., Lin, J., Schabath, M., and Wu, X. (2004).
+\newblock An evolutionary perspective on single-nucleotide polymorphism
+  screening in molecular cancer epidemiology.
+\newblock {\em Cancer Res}, 64(6):2251--2257.
 
 \end{thebibliography}

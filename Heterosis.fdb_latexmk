@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Heterosis"] 1373581406 "Heterosis.aux" "Heterosis.bbl" "Heterosis" 1373585325
+["bibtex Heterosis"] 1374531038 "Heterosis.aux" "Heterosis.bbl" "Heterosis" 1374531295
   "/usr/local/texlive/2012/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "Heterosis.aux" 1373585325 10173 6c4cce8007892abe8ce0dea404822d98 ""
+  "Heterosis.aux" 1374531294 10932 c9f1028f24dd6be7ecb4a699e8a91afe ""
   "Heterosis.bcf" 0 -1 0 ""
-  "Heterosis.bib" 1373578712 164786 39ac5b6bd6fdef7b19fe13ffd3a18e61 ""
+  "Heterosis.bib" 1374530533 189440 d59b3f58d6ade192d79dc62803d2f0a3 ""
   (generated)
   "Heterosis.bbl"
   "Heterosis.blg"
-["pdflatex"] 1373585321 "Heterosis.tex" "Heterosis.pdf" "Heterosis" 1373585325
+["pdflatex"] 1374531292 "Heterosis.tex" "Heterosis.pdf" "Heterosis" 1374531295
   "/usr/local/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -104,13 +104,13 @@
   "FigureS1.png" 1373297376 90661 b588a2f8cdc69b3c880b3b2db80a67e5 ""
   "Fst.png" 1373297376 94191 ca2cd83d71a6d1355c019e2a8b9101f3 ""
   "Fst2.png" 1373297376 319674 31560a08e6149c2f02168d12fab380e9 ""
-  "Heterosis.aux" 1373585325 10173 6c4cce8007892abe8ce0dea404822d98 ""
-  "Heterosis.bbl" 1373581406 16068 6e9700bb8648066a7a7158f57dc8d641 "bibtex Heterosis"
-  "Heterosis.out" 1373585322 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Heterosis.tex" 1373585324 47141 21dbc760e339765f425a16ee527e8394 ""
+  "Heterosis.aux" 1374531294 10932 c9f1028f24dd6be7ecb4a699e8a91afe ""
+  "Heterosis.bbl" 1374531038 18045 7ae47c14cf111c54d22dcb92fb4d173e "bibtex Heterosis"
+  "Heterosis.out" 1374531292 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Heterosis.tex" 1374531290 49344 735cc42cd7e89c81594b4a20b27f3c6b ""
   "PCA.png" 1373297377 125701 18230fa0ea3210d41126f4488bd22c9a ""
-  "PerDelGenome_ch1.jpg" 1373297377 49310 9062d447c21000cc51b7da0e7abdf0b5 ""
-  "PerDelGenome_ch1cM.jpg" 1373297377 70037 1245978c90ac2dda2bb65447ef1a43fa ""
+  "PerDelGenome_ch1.jpg" 1373912419 50585 e6c714bf11a9fc2b8167155853acd124 ""
+  "PerDelGenome_ch1cM.jpg" 1373912325 71009 2f75e4a478b7d7c4b22b359479e9d137 ""
   "SFS.png" 1373297377 98411 8b10d26542220f445fd639894d906c75 ""
   "VennDiagram.png" 1373297377 232113 502dafcc757c3e8164c71b19a3bbb38f ""
   "joinSFS.png" 1373297376 414744 d9a6c814a82c08d920b5bc4903da2ac9 ""

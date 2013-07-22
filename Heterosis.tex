@@ -40,7 +40,7 @@
 % ABSTRACT
 %----------------------------------------
 \begin{abstract} 
-Most nonsynonymous mutations are thought to be deleterious because of their effect on protein sequence.  Such polymorphisms are expected to be removed or kept at low frequency by the action of natural selection, but in small or inbred populations the effects of genetic drift may also be important. Rare deleterious variants have been implicated as a possible explanation for the 'missing heritability' seen in many studies of complex traits.  Here, we make use of genome-wide genotyping data to assess the evolution of deleterious variants in a large panel of maize inbred lines.  We show that, in spite of small effective population sizes and inbreeding, most  putatively deleterious SNPs are indeed at low frequencies within individual genetic groups. We find that genes showing associations with a number of complex traits are enriched for deleterious variants. Together these data are consistent with the dominance model of heterosis, in which complementation of numerous low frequency weak deleterious variants contributes to hybrid vigor.
+Most non-synonymous mutations are thought to be deleterious because of their effect on protein sequence.  These polymorphisms are expected to be removed or kept at low frequency by the action of natural selection, but  hitchhiking with advantageous alleles and drift in small or inbred populations may also be important. Rare deleterious variants have been implicated as a possible explanation for the 'missing heritability' seen in many studies of complex traits. Here, we made use of genome-wide genotyping data to assess the evolution of deleterious variants in a large panel of maize inbred lines.  We show that, in spite of small effective population sizes and inbreeding, most  putatively deleterious SNPs are indeed at low frequencies within individual genetic groups. We find that genes showing associations with a number of complex traits are enriched for deleterious variants. Together these data are consistent with the dominance model of heterosis, in which complementation of numerous low frequency, weak deleterious variants contributes to hybrid vigor.
 \end{abstract}
 
 %----------------------------------------
@@ -49,20 +49,23 @@ Most nonsynonymous mutations are thought to be deleterious because of their effe
 \newpage
 \section*{Introduction}
 
-Mutation is the driving force behind much of the genetic variation which forms the basis of evolutionary change.  A small minority of new mutations may be beneficial, but many may have little consequence for an organisms's fitness, and a large proportion are likely to be deleterious.  Natural selection is expected to maintain deleterious variants at low frequencies, but genetic drift in small populations can meaningfully impact the evolution of such variants when selection is weak ($s < \nicefrac{1}{2} N_{e}$; \citet{Keller2002}), potentially leading to fixation of deleterious mutations in isolated genetic groups \citep{Whitlock2003,Fay2001}.
+New mutations may have little consequences for an organism's fitness or be either beneficial or deleterious. Very few mutations are, however, beneficial where a large proportion are likely to be deleterious and are kept at low frequencies by purifying selection \citep{Ohta1973, Kimura1983}. Drift in small populations can, however, meaningfully impact the evolution of such deleterious variants when selection is weak ($s <1/2N_{e}$; \citet{Kimura1983}), leading to their fixation as if they were neutral \citep{Lynch1990,Lande1994,Whitlock2003}.
 
-In addition to selection, mutation, and drift, a number of other factors affect the destiny of deleterious alleles, such as the mating system and the recombination rate. Selfing species and inbreeding within populations will expose  lethal mutations to selection faster than in an outcrossing population \citep{Keller2002}, but weakly deleterious mutations  can nonetheless be maintained at moderate frequencies, even in the presence of gene flow between populations \citep{Whitlock2000}. Moreover, in genomic regions with low levels of recombination, selection against deleterious mutations will be less effective \citep{Charlesworth1993} and the potential exists for deleterious mutations to rise to high frequency due to the effects of linked selection on beneficial mutations \citep{Hill1966, Chun2011}. 
+In addition to selection and drift, a number of other factors affect the destiny of deleterious alleles such as the mating system and recombination rate. Selfing species and inbreeding within populations will expose lethal mutations to selection faster than in an outcrossing population \citep{Wang1999,Glemin2003}, but weakly deleterious mutations  can nonetheless be maintained at moderate frequencies, even in the presence of gene flow between populations \citep{Whitlock2000}. Moreover, in genomic regions with low levels of recombination, selection against deleterious mutations will be less effective \citep{Charlesworth1993fp} and the potential exists for deleterious mutations to rise to high frequency due to the effects of linked selection on beneficial mutations \citep{Felsenstein1974, Hill1966, Chun2011}. 
  
-Deleterious alleles may play an important role in quantitative traits, and complementation between haplotypes carrying different deleterious alleles may explain much of the observation of hybrid vigor or heterosis \citep{Charlesworth2009}. Evaluating the the abundance and frequency of deleterious mutations is thus of considerable interest, and has been investigated in a wide range of species \citep{Fay2001,Hughes2005,Lu2006,Pybus2007,Doniger2008,Gunther2010,Cao2011,Tellier2011,Subramanian2012}.
-These analyses have varied in terms of the percentage of nonsynonymous sites estimated to be deleterious, but have shown that recently bottlenecked populations may have a higher abundance of deleterious sites \citep{Lohmueller2008, Gunther2010}, and that most deleterious variants are unique to individual genomes or populations.  
-%unique to individual genomes needs citation
+Deleterious alleles may play an important role in traits of interest, and complementation between haplotypes carrying different deleterious alleles may explain much of the observation of hybrid vigor or heterosis \citep{Charlesworth2009}. 
+In human disease studies, significant correlation was observed between the deleterious predictions of SNPs and their association with cancer \citet{Zhu2004}. Predicted rare deleterious SNPs were also shown to be involved in common diseases \citep{Cohen2004,Smigrodzki2004}. % Cohen2004 for plasma HDL-Cholesterol and Smigrodzki2004 for Parkinson's disease. 
+Furthermore, rare alleles -where deleterious ones are over-represented- have gained interest as a non-negligible fraction of loci associated with quantitative traits \citep{Gibson2012}.
+Nevertheless, no published studies had yet investigated the effect of deleterious loci on plant traits. 
 
-Among plants, deleterious variants haven been investigated in detail in only a few cases.  \citet{Tellier2011} estimated to 90\,\% the proportion of non-synonymous SNPs under selection, suggesting that they may be deleterious. \citet{Gunther2010} identified a greater abundance of deleterious variants in marginal populations of \emph{Arabidopsis thaliana}, a result consistent with recent work on local adaptation in that species \citep{Fournier-Level2011}.  \citet{Gunther2010} also find more deleterious variants in domesticated rice than its wild progenitor, a finding that may be explained by these variants being linked to the targets of domestication \citep{Lu2006}. To date, however, studies in plants have not investigated the frequency of deleterious variants among populations, nor the potential for deleterious variants to affect quantitative traits.
+Evaluating the abundance and frequency of deleterious mutations is thus of considerable interest, and has been investigated in a wide range of species. These analyses have varied in terms of the percentage of non-synonymous sites estimated to be deleterious with, for example, 3.15\, \% of non-synonmous deleterious sites in bacterial populations \citep{Hughes2005}  and 80\, \% of amino acid polymorphisms in Human genome where estimated to be deleterious \citep{Fay2001}. They have also shown that recently bottlenecked populations may have a higher abundance of deleterious sites and that heterozygosity at deleterious SNPs was is lower than at synonymous SNPs \citep{Lohmueller2008}.
+Among plants, deleterious variants haven been investigated in detail in only a few cases.  \citet{Tellier2011} estimated to 90\,\% the proportion of non-synonymous SNPs under selection, suggesting that they may be deleterious. \citet{Gunther2010} identified a greater abundance of deleterious variants in genetically divergent populations of \emph{Arabidopsis thaliana},  a result consistent with recent work on local adaptation in that species \citep{Fournier-Level2011}.  \citet{Gunther2010} also find more deleterious variants in domesticated rice than its wild progenitor, a finding that may be explained by these variants being linked to the targets of domestication \citep{Lu2006}. To date, however, studies in plants have not investigated the frequency of deleterious variants among populations, nor the potential for deleterious variants to affect quantitative traits.
 
-Maize is a worldwide economically important cereal with the highest yield and one of largest cultivated crop area (FAO statistics, \url{http://faostat.fao.org}). Some of the first observations of hybrid vigor were documented in maize \citep{East1908,Shull1908}. Moreover, the presence of strong population structure in maize heterotic groups and the high observed levels of heterosis make it an interesting species in which to analyze the distribution of deleterious mutations. 
+Maize (\emph{Zea mays}) is a worldwide economically important cereal with the highest yield and one of largest crop cultivated area (FAO statistics, \url{http://faostat.fao.org}); it is also a great model for basic and applied research \citep{Strable2009}. Maize was traditionally cultivated as open pollinated populations (landraces) but, after the first documented observations of hybrid vigor in this species \citep{East1908,Shull1908}, inbred lines were developped and structured into heterotic groups that maximize inter-group combining ability. 
 
-The aim of the current study was to make use of the availability of the maize genome sequence, high density single nucleotide polymorphisms (SNPs) and phenotypic data for a large sample of inbred lines and hybrids to (1) carry out a genome wide scan for deleterious mutations, (2) analyze their distribution across the genome and within different genetic groups and (3) test for enrichment of these loci in the results of genome wide association mapping with both the genetic values of inbred lines and hybrid vigor for a number of  quantitative traits. Our results showed that maize is segregating for a large number of predicted deleterious variants.
-%These alleles are in general at very low frequencies and there are few deleterious SNPs differentially fixed among different genetic groups. 
+The transit from heterozygote populations to homozygote, strongly structured heterotic groups, makes maize inbred lines of interest for analyzing the distribution and frequency of deleterious mutations. Furthermore, high observed values of heterosis in maize hybrids makes it a great model for testing the effect of deleterious mutations and their contribution to dominance hypothesis. The latter is one of the classical hypothesis for explaining heterosis and assumes that inbred lines carry homozygote deleterious alleles at different loci that complements in the hybrid, yielding better performances than any of the parents. The two other main hypothesis for heterosis are overdominance and epistasis. The overdominance hypothesis considers heterosis as a per se superiority of heterozygote over both homozygotes at some loci. Epistasis which is the positive interaction between loci do not explain a high portion of genetic variance in comparison to the additive and dominance variances \citep{Schnell1992,Garcia2008}.
+
+The aim of the current study was to make use of the availability of the maize genome sequence, high density single nucleotide polymorphisms (SNPs) and phenotypic data for a large sample of inbred lines and hybrids to (1) carry out a genome wide scan for deleterious mutations, (2) analyze their distribution across the genome and within different genetic groups and (3) test for enrichment of these loci in the results of genome wide association mapping with both the genetic values of inbred lines and hybrid vigor for a number of  quantitative traits. Our results showed that maize inbred lines are segregating for a large number of predicted deleterious variants (20 to 40 \,\% of protein coding SNPs were predicted to have a deleterious allele). These alleles are generally at very low frequencies and there are few deleterious SNPs differentially fixed among different genetic groups. 
 Based on results of genome wide association mapping, we find little evidence for enrichment of individual deleterious SNPs. An enrichment for genes containing deleterious SNPs in association results with hybrid vigor was however observed, suggesting a meaningful role for dominance and complementation in explaining observations of hybrid vigor. 
 
 %----------------------------------------
@@ -76,22 +79,20 @@ Based on results of genome wide association mapping, we find little evidence for
 
 We utilized phenotypic data published in \citet{Flint-Garcia2005} for 247 maize inbred lines (see supplemental data for a list of inbred lines). Each inbred line was crossed to the stiff-stalk inbred B73 (population A) and both the inbred lines and their B73-hybrids were evaluated in three environments in 2003 \citep{Flint-Garcia2009}. A subset of 102 inbreds were additionally crossed to both B73 (population B1) and Mo17 (population B2) and evaluated in a single environment in 2006 \citep{Flint-Garcia2009}. Supplemental Table~\ref{Traits} lists the analyzed traits which are detailed in \citep{Flint-Garcia2009}.
 
-%Traits measured in both populations include cob diameter (cm), cob weight (g), ear length (cm), plant height (cm), individual kernel weight (g) and total kernel weight (g/ear). Additional traits including days to anthesis, plant yield (g/plant), tassel length (cm), tassel branch count, tassel angle, upper leaf angle, leaf width (cm), leaf length (cm), stem puncture resistance (kg/section), stem width (cm), 10 kernel weight (g) and kernel height (cm) were collected for population A, and seed number per ear was collected for populations B1 and B2. Details of the phenotypes and measurements can be found in \citep{Flint-Garcia2009}.
 
 \subsection*{Genotypic data}
 
 We made use of genotypic data from \citet{Larsson2013} for the full set of 247 lines. The latter were genotyped using the genotype-by-sequencing approach \citep[GBS;][]{Elshire2011}, resulting in a total of 437,650 SNPs that were partially imputed. Of these SNPs, 127,994 mapped to protein coding sequences representing 123,289 codons in 21,064 genes. The median (mean) percentage of missing data per SNP, including triallelic sites, was 1.06\% (2.52\%), while the percentage of heterozygous sites was 1.08\% (2.52\%). Only 4.5\% of SNPs had more than 10\% missing data (Supp Fig~\ref{figureS1}-A), and 0.18\% had more than 10\% heterozygous genotypes (Supp Fig~\ref{figureS1}-B).
 
 We estimated error rates by first comparing our genotyped inbred B73 to the B73 reference genome, then by comparison of all our genotypes to those from 7,225 overlapping SNPs on the maize SNP50 bead chip \citep{Cook2012}.  
-Compared to the reference genome, our B73 genotype differed at 1.75\% of SNPs, and across all lines our genotypes differed at a median (mean) rate of 1.83\% (4.62\%) from the maize SNP50 data \citep{Cook2012}.   
+Compared to the reference genome, our B73 genotype after imputation differed (alternative homozygote allele) at 1.75\% of SNPs, and across all lines our genotypes differed at a median (mean) rate of 1.83\% (4.62\%) from the maize SNP50 data \citep{Cook2012}.   
 
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 \subsection*{Statistical analyses}
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 
-\subsubsection*{SNP annotation}
-SNPs were annotated as synonymous and nonsynonymous using the software polydNdS from the analysis package of libsequence  \citep{Thornton2003}. 
-The deleterious effects of amino acid changes were predicted for proteins derived from the first transcript of each gene in the B73 5.b filtered gene set using both the SIFT \citep{Ng2003, Ng2006} and MAPP \citep{Stone2005} software packages. 
+\subsubsection*{SNP annotation and anlalyses}
+ The first transcript of each gene in the B73 5.b filtered gene set was used to annotate SNPs as synonymous and non-synonymous with the software polydNdS from the analysis package of libsequence  \citep{Thornton2003}. The deleterious effects of amino acid changes were then predicted for proteins derived from the first transcript of each gene with both the SIFT \citep{Ng2003, Ng2006} and MAPP \citep{Stone2005} software packages.
 
 SIFT uses homologous sequences identified by PSI-BLAST against protein databases to identify conserved amino acids.  
 The software provides a scaled score of the putative deleterious effect of a particular amino acid at a position along a protein. 
@@ -99,9 +100,14 @@ The software provides a scaled score of the putative deleterious effect of a par
 MAPP predicts deleterious amino acid polymorphisms from a user-defined alignment of protein homologs. It uses the phylogenetic relatedness among sequences and the physicochemical properties of amino acids to quantify the potential deleterious effect of a given amino acid change.  We created alignments for MAPP using three different methods.  First, we made BLASTX comparisons of protein sequences from maize against the TrEMBL database \citep{Boeckmann2003}, retaining all proteins with an e-value $\leq 10^{-40}$ and at least 60\% identity with the query.  Second, we used a reciprocal best BLAST criterion to compare protein sequences of maize against protein sequences from 31 plant genomes (supplemental data)  from Phytozome version 8.0 (\url{http://www.phytozome.net}), retaining the best hit protein from each of the other genomes with a minimum e-value $\leq 10^{-100}$ and  $\geq 70\%$ coverage of the query length. Finally, we made use of a set of syntenic genes from the grasses \emph{Zea mays}, \emph{Sorghum bicolor}, \emph{Oryza sativa} and \emph{Brachypodium distachyon}  \citep{Schnable2012}. For each set of proteins, ClustalW2 \citep{Larkin2007} was used to align the sequences and build a neighbour-joining tree. A custom R script was used to link amino acid positions to SNP positions and to link the amino acid polymorphisms to MAPP and SIFT predictions.
 % will want to provide link to R script eventually
 
+Derived site frequency spectrum was calculated for all protein coding SNPs with \emph{Tripsacum} as outgroup. 
+Pattern of haplotype sharing across the genome (PHS statistics; \citet{Toomajian2006}) was analyzed within each of the tropical, stiff-stalk, non-stiff stalk and mixed subpopulations as defined by \citet{Flint-Garcia2005}. We ail refer to these subpopulations as `genetic groups".
+
+
 \subsubsection*{Phenotypic data analyses}
 
-Genetic values of inbreds and hybrids in population B were taken from \citet{Flint-Garcia2009}. 
+Genetic values %(average phenotypic value of all individuals with the same genotype)
+of inbreds and hybrids in population B were taken from \citet{Flint-Garcia2009}. 
 Genetic values for population A were estimated from the raw phenotypic data using the model:
 %
 \[Y=\mathbf{1}\mu +ZG+\varepsilon \]
@@ -122,7 +128,7 @@ SNP association with the genetic values of the inbred lines were tested using th
 %
 \[\hat{G}=\mathbf{1}\mu + M\vartheta +S\beta +Zu+\varepsilon\]
 %
-where $\hat{G}$ is the vector of estimated genetic values for inbred lines, $\mu$ is the mean of $\hat{G}$, $M$ is the tested SNP, $\vartheta$ is the SNP effect, $S$ is the structure covariates estimated by \citet{Flint-Garcia2005}, $\beta$ is the fixed structure effects, $Z$ is an incidence matrix, $u$ is a random effect vector assumed to be $N(0,\sigma_{ {\varepsilon}}^{2}K)$ and $\varepsilon$ are the model residuals assumed to be $N(0,\sigma_{ {\varepsilon}'}^{2}I)$. 
+where $\hat{G}$ is the vector of estimated genetic values for inbred lines, $\mu$ is the mean of $\hat{G}$, $M$ is the tested SNP, $\vartheta$ is the SNP effect, $S$ is the structure covariates estimated  with STRUCTURE software \citep{Pritchard2000} by \citet{Flint-Garcia2005}, $\beta$ is the fixed structure effects, $Z$ is an incidence matrix, $u$ is a random effect vector assumed to be $N(0,\sigma_{ {\varepsilon}}^{2}K)$ and $\varepsilon$ are the model residuals assumed to be $N(0,\sigma_{ {\varepsilon}'}^{2}I)$. 
 The coancestry matrix $K$ among inbred lines was approximated by an identity by state matrix calculated with the SNPs. Only SNPs with a minor allele frequency $\ge$ 0.05 were used for association mapping tests.
 
 In hybrids, we tested the effect of heterozygosity at a given locus on observed heterosis. 
@@ -151,27 +157,27 @@ We then took advantage of recently published genotyping-by-sequencing \citep[GBS
 \subsection*{Characterization of deleterious SNPs in a diversity panel}
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 
-Across all lines, the derived site frequency spectrum (SFS, with \emph{Tripsacum} as out group) of coding SNPs showed an excess of rare variants compared to neutral expectations, with 45\% of SNPs at a minor derived allele frequency lower than 5\% across all lines. Even so, nonsynonymous SNPs showed an excess of rare variants when compared to synonymous SNPs (Mann-Whitney U test p-value $<10^{-15}$; Figure~\ref{sfs_non_syn}-A), and putatively deleterious SNPs showed a marked excess of rare variants (Mann-Whitney U test p-value $<10^{-15}$; Figure~\ref{sfs_non_syn}-B) compared to other non-synonymous variants. These observations are consistent with the action of weak purifying selection \citep{Fay2001} and provide a measure of independent corroboration of the utility of MAPP and SIFT in predicting deleterious variants.
+Across all lines, the derived site frequency spectrum (SFS) of coding SNPs showed an excess of rare variants compared to neutral expectations, with 45\% of minor alleles occurring at  less than 5\% in the derived SFS across all lines. Even so, non-synonymous SNPs showed an excess of rare variants when compared to synonymous SNPs (Mann-Whitney U test p-value $<10^{-15}$; Figure~\ref{sfs_non_syn}-A), and putatively deleterious SNPs showed a marked excess of rare variants (Mann-Whitney U test p-value $<10^{-15}$; Figure~\ref{sfs_non_syn}-B) compared to other non-synonymous variants. These observations are consistent with the action of weak purifying selection \citep{Cummings1998,Fay2001} and provide a measure of independent corroboration of the utility of MAPP and SIFT in predicting deleterious variants.
 
 % SFS figure
 %-------------------------------------------------------------------
 \begin{figure*}[!b]
   \begin{center}
    \includegraphics[width=150mm]{SFS.png}
-    \caption{Derived allele frequency spectrum of (A) synonymous \emph{vs} non-synonymous SNPs and (b) non-synonymous non-deleterious \emph{vs} non-synonymous deleterious SNPs. \emph{Tripsacum} was used as out-group for identifying the derived allele.} 
+    \caption{Derived site frequency spectrum of (A) synonymous \emph{vs} non-synonymous SNPs and (b) non-synonymous non-deleterious \emph{vs} non-synonymous deleterious SNPs. \emph{Tripsacum} was used as outgroup for identifying the derived allele.} 
 \label{sfs_non_syn}
   \end{center}
 \end{figure*}
 %-------------------------------------------------------------------
 
-Although most predicted deleterious alleles were rare, 923 were found segregating at high frequency ($\geq 0.80$) across all lines.  To test whether these alleles may have been driven to high frequency by selection at linked loci during domestication \citep{Lu2006} we analyzed the pattern of haplotype sharing across the genome \citep{Toomajian2006} within each of the tropical, stiff-stalk, non-stiff stalk and mixed genetic groups as defined by \citet{Flint-Garcia2005}.  Only 87 SNPs (9.4\% of all tests) showed signs of positive selection in at least one of the genetic groups, and only 25 were found in candidate regions for selection during maize domestication \citep{Hufford2012}, providing little evidence to support hitchhiking during domestication as a major influence on deleterious alleles in the genome.
+Although most predicted deleterious alleles were rare, 923 were found segregating at high frequency ($\geq 0.80$) across all lines.  To test whether these alleles may have been driven to high frequency by selection at linked loci during domestication \citep{Lu2006} we analyzed the pattern of haplotype sharing across the genome \citep{Toomajian2006}.  Only 87 SNPs (9.4\% of all tests) showed signs of positive selection in at least one of the genetic groups, and only 25 were found in candidate regions for selection during maize domestication \citep{Hufford2012}, providing little evidence to support hitchhiking during domestication as a major influence on the distribution of deleterious alleles in the genome.
 
 %along genome figure
 %-------------------------------------------------------------------
 \begin{figure*}[!t]
   \begin{center}
    \includegraphics[width=140mm]{PerDelGenome_ch1.jpg}
-    \caption{Proportion of genic SNPs predicted to be synonymous, non-deleterious nonsynonymous and deleterious nonsynonymous in 1Mb windows along chromosome\,1} 
+    \caption{Proportion of genic SNPs predicted to be synonymous, non-deleterious non-synonymous and deleterious non-synonymous in 1Mb windows along chromosome\,1} 
    \label{non_syn_chr1}
   \end{center}
 \end{figure*}
@@ -196,17 +202,17 @@ Individual lines varied considerably in their content of predicted deleterious a
 %-------------------------------------------------------------------
   \begin{center}
    \includegraphics[width=150mm]{Fst2.png}
-    \caption{Distribution of $\mathrm{F}_{\mathrm{ST}}$ along chromosome 1; black dots represent top 1\% SNPs, the predicted deleterious are surrounded in red.} 
+    \caption{Distribution of $\mathrm{F}_{\mathrm{ST}}$ along chromosome 1; black dots represent top 1\% SNPs, outlier predicted deleterious SNPs are surrounded in red.} 
    \label{fst_chr1}
   \end{center}
 \end{figure*}
 %-------------------------------------------------------------------
 
-Allele sharing at predicted deleterious SNPs generally followed genome-wide patterns of identity by state (IBS). Within the non-stiff stalk, tropical, popcorn and sweet genetic groups, correlations were generally high (Pearson's $r$ of 0.75-0.99) between numbers of shared predicted deleterious alleles (mean of 5 -10\%) and IBS. Correlations between inbreds from different genetic groups were much lower ($r$ of 25 - 52 \%), however, as has been previously seen in correlations  between IBS and heterosis observed at SSR loci \citep{Flint-Garcia2009}. The "mixed" (within group $r=0.22$, $r=-0.05\ to\ 0.36$ with other groups) and stiff stalk (within-group $r=0.15$, $r=-0.65\ to\ 0.16$ with other groups) groups appeared exceptions to this pattern, perhaps due to the aforementioned ascertainment bias or previously unrecognized population substructure (Supplemental Figure \ref{figureS3}). 
+Allele sharing at predicted deleterious SNPs generally followed genome-wide patterns of identity by state (IBS). Within the non-stiff stalk, tropical, popcorn and sweet genetic groups, correlations were generally high (Pearson's $r$ of 0.75-0.99) between numbers of shared predicted deleterious alleles (mean of 5 -10\%) and IBS. Correlations between inbreds from different genetic groups were much lower ($r$ of 25 - 52 \%), however, as has been previously seen in correlations  between IBS and heterosis observed at SSR loci \citep{Flint-Garcia2009}. The  `mixed'' (within group $r=0.22$ and $r=-0.05\ to\ 0.36$ with other groups) and stiff stalk (within-group $r=0.15$ and $r=-0.65\ to\ 0.16$ with other groups) groups appeared exceptions to this pattern, perhaps due to the aforementioned ascertainment bias or previously unrecognized population substructure (Supplemental Figure \ref{figureS3}). 
 
 Across all genetic groups, levels of population differentiation were slightly lower for predicted deleterious (mean $\mathrm{F}_{\mathrm{ST}}=0.07$) than non-deleterious (mean $\mathrm{F}_{\mathrm{ST}}=0.08$) SNPs (Mann-Whitney U test p-value $< 10^{-15}$ ; Figure~\ref{fst_dist}). After correcting 
 for allele frequencies in both classes, however, these differences disappeared, and the proportion of deleterious SNPs in the top 1\% of $\mathrm{F}_{\mathrm{ST}}$ was not significantly different from the proportion observed for synonymous SNPs (Fisher's Exact Test p-value $= 0.94$) or all SNPs in genic regions (Fisher's Exact Test p-value $= 0.51$).
-With allele frequency correction, 287 genes had a predicted deleterious SNP in the top 1\% of Fst among genetic groups, and 30 genes have 2 or more high-Fst predicted deleterious SNPs.  Only eleven genes with high-Fst deleterious SNPs  are, however, found in regions thought to be selected during maize improvement  \citep{Hufford2012}, and only 44 genes show significant signs of positive selection with the PHS statistic, again providing little support for the idea that these SNPs were affected by selection on linked beneficial mutations.
+With allele frequency correction, 287 genes had a predicted deleterious SNP in the top 1\% of Fst among genetic groups, and 30 genes had 2 or more high-Fst predicted deleterious SNPs.  Only eleven genes ($~4\%$) with high-Fst deleterious SNPs  are, however, found in regions thought to be selected during maize improvement  \citep{Hufford2012}, and only 44 genes ($~15\%$) show significant signs of positive selection with the PHS statistic, again providing little support for the idea that these SNPs were affected by selection on linked beneficial mutations.
 
 % Joint SFS
 %-------------------------------------------------------------------
@@ -264,7 +270,8 @@ TOTKNLWT 	& 	256 	& 	0.88 	& 	3781 	& 	0.98 	& 	2045 	& 	0.95	\\
 
 Observed frequencies of deleterious SNPs in different populations (Figure \ref{jfs}) may help explain patterns of hybrid vigor.  Inbreds from different heterotic groups are expected to share fewer deleterious variants, and heterosis is highest among crosses between groups (Supp Fig~\ref{figureS4}).  Nonetheless, even crosses among inbreds from the same heterotic group show evidence of heterosis (Supp Fig~\ref{figureS1}-A), likely due to the large number of deleterious SNPs segregating at low frequencies within individual populations.   
 
-Results for association between SNP heterozygosity and heterosis showed highly variable numbers of significant loci (Table \ref{popA_sig_enrichment} and Supplemental Table \ref{popB_sig_enrichment}) also with a high proportion (up to 74\%) of genic SNPs. Significant SNPs explained between 4-40\% of the observed phenotypic variation in heterosis measured for a given traits, though these values are likely inflated due to small sample size \citep{Beavis1994}. The highest number of associated loci were observed for plant height and yield-related traits. Most traits exhibited some enrichment ($5-45\%$) of predicted deleterious SNPs, but only for whole plant yield and days to tasseling was the observed enrichment statistically significant. 
+Results for association between SNP heterozygosity and heterosis showed highly variable numbers of significant loci (Table \ref{popA_sig_enrichment} and Supplemental Table \ref{popB_sig_enrichment}) also with a high proportion (up to 74\%) of genic SNPs. Significant SNPs explained between 4-40\% of the observed phenotypic variation in heterosis measured for a given traits, though these values are likely inflated due to small sample size \citep{Beavis1994}. The highest number of associated loci were observed for plant height and yield-related traits.%More interpretation here
+Most traits exhibited some enrichment ($5-45\%$) of predicted deleterious SNPs, but only for whole plant yield and days to tasseling was the observed enrichment statistically significant. %This could be made into a more positive statementÉafter all it is yield heterosis that was the basis of development of the heterotic groups, so the fact this shows a positive association is both interesting and exciting
 
 Because most deleterious SNPs are at frequencies too low for inclusion in association analyses ({Fig. \ref{sfs_non_syn}}), we expanded our test of enrichment to the gene level, asking whether genes with predicted deleterious SNPs were more likely than random to have SNPs significantly associated with traits of interest. At this level we see much stronger evidence of enrichment; a number of traits show statistically significant enrichment in population\,A, but virtually all traits in both populations show a positive enrichment for genes with predicted deleterious SNPs (Tables \ref{gene_enrichment_A} and Supplemental Table \ref{gene_enrichment_B}), a result that is highly unlikely by chance (sign test p-value=$3\ 10^{-5}$ for population\,A and $0.01$ for population\,B). The relatively low correlation between total SNPs in a gene and the number of significant associations ($r\leq 0.2$) suggests that this is not an artifact of the number of SNPs per locus.  
 
@@ -305,6 +312,7 @@ TOTKNLWT	&	101	&	1.18	&	1228	&	1.11*	&	714	&	1.07	\\
 %-------------------------------------------------------------------
 
 Although we analyzed only a relatively small subset of the genome-wide SNP diversity \citep{Chia2012}, our data nonetheless present the first genome-wide scan of deleterious coding variants in maize.  Our results provide evidence for the contribution of deleterious mutations to heterosis via complementation, consistent with the dominance hypothesis of heterosis \citep{Schnable2013}.  Future analysis of full sequence data, allowing the inclusion of all coding SNPs as well as noncoding variants, will provide an even richer catalog of variants that will expand our understanding of the role rare of deleterious variants in maize breeding.   
+% I wanted more.  I thought the discussion ended too soon.  I would love to hear more of your thoughts on what you think is going on with deleterious variants and what you hope to do next
 
 %----------------------------------------
 % ACKNOWLEGMENTS
@@ -385,6 +393,7 @@ B73, MO17, X33.16, A188, A239, A619, A632, A634, A635, A641, A654, A661, A679, A
 %Table S1
 %-------------------------------------------------------------------
 \begin{table*}[ht]
+  \begin{center}
 {\fontsize{10}{10}\sf
 \caption[]{List of Analyzed traits}
 \begin{tabular}{llc} \hline
@@ -410,6 +419,7 @@ Seed number per ear	&	SEEDNB	&	B	\\
 \end{tabular}
 \label{Traits}  
 }
+  \end{center}
 \end{table*}
 %-------------------------------------------------------------------
 
@@ -531,7 +541,7 @@ PLTHT	&	169	&	1.15	&	112	&	1.09	&	65	&	1.13	&	348	&	1.15	&	65	&	1.15	\\
 \begin{figure*}[ht]
   \begin{center}
    \includegraphics[width=140mm]{PerDelGenome_ch1cM.jpg}
-    \caption{Proportion of genic SNPs predicted to be synonymous, non-deleterious nonsynonymous and deleterious nonsynonymous in 1\,cM windows along chromosome\,1} 
+    \caption{Proportion of genic SNPs predicted to be synonymous, non-deleterious non-synonymous and deleterious non-synonymous in 1\,cM windows along chromosome\,1} 
    \label{non_syn_chr1cM}
   \end{center}
 \end{figure*}
@@ -555,7 +565,7 @@ PLTHT	&	169	&	1.15	&	112	&	1.09	&	65	&	1.13	&	348	&	1.15	&	65	&	1.15	\\
 \begin{figure*}[h]
   \begin{center}
    \includegraphics[width=100mm]{BoxplotBPH.png}
-    \caption{Distribution of best parent heterosis for plant yield in population\,A. BSSS and nBSSS indicate the stiff stalk and non-stiff stalk groups.}
+    \caption{Distribution of best parent heterosis (BPH) for plant yield in population\,A. BSSS and nBSSS indicate the stiff stalk and non-stiff stalk groups.}
    \label{figureS4}
   \end{center}
 \end{figure*}

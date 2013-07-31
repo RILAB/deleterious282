@@ -19,6 +19,13 @@ Boeckmann, B., Bairoch, A., Apweiler, R., Blatter, M., Estreicher, A.,
   2003.
 \newblock {\em Nucleic Acids Res}, 31(1):365--370.
 
+\bibitem[Cao et~al., 2011]{Cao2011}
+Cao, J., Schneeberger, K., Ossowski, S., G{\"u}nther, T., Bender, S., Fitz, J.,
+  Koenig, D., Lanz, C., Stegle, O., Lippert, C., Wang, X., Ott, F., M{\"u}ller,
+  J., Alonso-Blanco, C., Borgwardt, K., Schmid, K.~J., and Weigel, D. (2011).
+\newblock Whole-genome sequencing of multiple arabidopsis thaliana populations.
+\newblock {\em Nat Genet}, 43(10):956--63.
+
 \bibitem[Charlesworth and Charlesworth, 1987]{Charlesworth1987}
 Charlesworth, D. and Charlesworth, B. (1987).
 \newblock Inbreeding depression and its evolutionary consequences.
@@ -102,6 +109,11 @@ Felsenstein, J. (1974).
 \newblock The evolutionary advantage of recombination.
 \newblock {\em Genetics}, 78(2):737--756.
 
+\bibitem[Fisher, 1930]{Fisher1930}
+Fisher, R.~A. (1930).
+\newblock {\em The Genetical Theory of Natural Selection}.
+\newblock Oxford University Press, Oxford.
+
 \bibitem[Flint-Garcia et~al., 2009]{Flint-Garcia2009}
 Flint-Garcia, S.~A., Buckler, E.~S., Tiffin, P., Ersoz, E., and Springer, N.~M.
   (2009).
@@ -122,12 +134,6 @@ Fournier-Level, A., Korte, A., Cooper, M., Nordborg, M., Schmitt, J., and
   Wilczek, A. (2011).
 \newblock A map of local adaptation in arabidopsis thaliana.
 \newblock {\em Science}, 334(6052):86--89.
-
-\bibitem[Garcia et~al., 2008]{Garcia2008}
-Garcia, A. A.~F., Wang, S., Melchinger, A.~E., and Zeng, Z.-B. (2008).
-\newblock Quantitative trait loci mapping and the genetic basis of heterosis in
-  maize and rice.
-\newblock {\em Genetics}, 180(3):1707--24.
 
 \bibitem[Gibson, 2012]{Gibson2012}
 Gibson, G. (2012).
@@ -151,6 +157,13 @@ Gore, M.~A., Chia, J.-M., Elshire, R.~J., Sun, Q., Ersoz, E.~S., Hurwitz,
   D.~H., and Buckler, E.~S. (2009).
 \newblock A first-generation haplotype map of maize.
 \newblock {\em Science}, 326(5956):1115--7.
+
+\bibitem[Gossmann et~al., 2010]{Gossmann2010}
+Gossmann, T., Song, B., Windsor, A., Mitchell-Olds, T., Dixon, C., Kapralov,
+  M., Filatov, D., and Eyre-Walker, A. (2010).
+\newblock Genome wide analyses reveal little evidence for adaptive evolution in
+  many plant species.
+\newblock {\em Mol Biol Evol}, 27(8):1822--1832.
 
 \bibitem[G{\"u}nther and Schmid, 2010]{Gunther2010}
 G{\"u}nther, T. and Schmid, K.~J. (2010).
@@ -185,6 +198,12 @@ Hughes, A.~L. (2005).
 \newblock Evidence for abundant slightly deleterious polymorphisms in bacterial
   populations.
 \newblock {\em Genetics}, 169(2):533--8.
+
+\bibitem[Joseph and Hall, 2004]{Joseph2004}
+Joseph, S.~B. and Hall, D.~W. (2004).
+\newblock Spontaneous mutations in diploid saccharomyces cerevisiae: more
+  beneficial than expected.
+\newblock {\em Genetics}, 168(4):1817--25.
 
 \bibitem[Kimura, 1983]{Kimura1983}
 Kimura, M. (1983).
@@ -311,11 +330,6 @@ Schnable, P.~S., Ware, D., Fulton, R.~S., Stein, J.~C., Wei, F., Pasternak, S.,
   R.~K. (2009).
 \newblock The b73 maize genome: complexity, diversity, and dynamics.
 \newblock {\em Science}, 326(5956):1112--5.
-
-\bibitem[Schnell and Cockerham, 1992]{Schnell1992}
-Schnell, F. and Cockerham, C. (1992).
-\newblock Multiplicative vs. arbitrary gene action in heterosis.
-\newblock {\em Genetics}, 131(2):461--469.
 
 \bibitem[Shull, 1908]{Shull1908}
 Shull, G.~H. (1908).

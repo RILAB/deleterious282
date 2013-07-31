@@ -5,45 +5,45 @@ The style file: apalike.bst
 Database file #1: Heterosis.bib
 Warning--can't use both author and editor fields in Beavis1994
 Warning--empty publisher in Beavis1994
-You've used 59 entries,
+You've used 61 entries,
             1935 wiz_defined-function locations,
-            879 strings with 19710 characters,
-and the built_in function-call counts, 33578 in all, are:
-= -- 2894
-> -- 2556
-< -- 25
-+ -- 986
-- -- 956
-* -- 3440
-:= -- 6060
-add.period$ -- 176
-call.type$ -- 59
-change.case$ -- 770
-chr.to.int$ -- 59
-cite$ -- 61
-duplicate$ -- 825
-empty$ -- 1706
-format.name$ -- 1041
-if$ -- 6214
+            892 strings with 20333 characters,
+and the built_in function-call counts, 34847 in all, are:
+= -- 2997
+> -- 2671
+< -- 26
++ -- 1032
+- -- 1000
+* -- 3571
+:= -- 6294
+add.period$ -- 182
+call.type$ -- 61
+change.case$ -- 801
+chr.to.int$ -- 61
+cite$ -- 63
+duplicate$ -- 853
+empty$ -- 1760
+format.name$ -- 1087
+if$ -- 6443
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 62
-newline$ -- 297
-num.names$ -- 177
-pop$ -- 646
+missing$ -- 65
+newline$ -- 307
+num.names$ -- 183
+pop$ -- 677
 preamble$ -- 1
-purify$ -- 773
+purify$ -- 805
 quote$ -- 0
-skip$ -- 613
+skip$ -- 633
 stack$ -- 0
-substring$ -- 1830
-swap$ -- 61
+substring$ -- 1880
+swap$ -- 63
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 348
+type$ -- 358
 warning$ -- 2
-while$ -- 173
+while$ -- 178
 width$ -- 0
-write$ -- 765
+write$ -- 791
 (There were 2 warnings)

@@ -3,47 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Heterosis.aux
 The style file: apalike.bst
 Database file #1: Heterosis.bib
-Warning--can't use both author and editor fields in Beavis1994
-Warning--empty publisher in Beavis1994
-You've used 61 entries,
+You've used 62 entries,
             1935 wiz_defined-function locations,
-            892 strings with 20333 characters,
-and the built_in function-call counts, 34847 in all, are:
-= -- 2997
-> -- 2671
-< -- 26
-+ -- 1032
-- -- 1000
-* -- 3571
-:= -- 6294
-add.period$ -- 182
-call.type$ -- 61
-change.case$ -- 801
-chr.to.int$ -- 61
-cite$ -- 63
-duplicate$ -- 853
-empty$ -- 1760
-format.name$ -- 1087
-if$ -- 6443
+            897 strings with 20480 characters,
+and the built_in function-call counts, 35099 in all, are:
+= -- 3023
+> -- 2678
+< -- 27
++ -- 1036
+- -- 1002
+* -- 3582
+:= -- 6344
+add.period$ -- 185
+call.type$ -- 62
+change.case$ -- 807
+chr.to.int$ -- 62
+cite$ -- 62
+duplicate$ -- 865
+empty$ -- 1777
+format.name$ -- 1090
+if$ -- 6489
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 65
-newline$ -- 307
-num.names$ -- 183
-pop$ -- 677
+missing$ -- 64
+newline$ -- 312
+num.names$ -- 186
+pop$ -- 680
 preamble$ -- 1
-purify$ -- 805
+purify$ -- 811
 quote$ -- 0
-skip$ -- 633
+skip$ -- 645
 stack$ -- 0
-substring$ -- 1880
-swap$ -- 63
+substring$ -- 1894
+swap$ -- 64
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 358
-warning$ -- 2
-while$ -- 178
+type$ -- 366
+warning$ -- 0
+while$ -- 180
 width$ -- 0
-write$ -- 791
-(There were 2 warnings)
+write$ -- 803

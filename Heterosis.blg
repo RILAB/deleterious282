@@ -3,44 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Heterosis.aux
 The style file: apalike.bst
 Database file #1: Heterosis.bib
-You've used 64 entries,
+Warning--I didn't find a database entry for "Brandvain2013"
+Warning--I didn't find a database entry for "Paape2013"
+You've used 65 entries,
             1935 wiz_defined-function locations,
-            908 strings with 20970 characters,
-and the built_in function-call counts, 36092 in all, are:
-= -- 3113
-> -- 2739
+            917 strings with 21353 characters,
+and the built_in function-call counts, 36728 in all, are:
+= -- 3162
+> -- 2807
 < -- 27
-+ -- 1058
-- -- 1024
-* -- 3682
-:= -- 6520
-add.period$ -- 191
-call.type$ -- 64
-change.case$ -- 828
-chr.to.int$ -- 64
-cite$ -- 64
-duplicate$ -- 893
-empty$ -- 1837
-format.name$ -- 1114
-if$ -- 6678
++ -- 1088
+- -- 1050
+* -- 3747
+:= -- 6642
+add.period$ -- 194
+call.type$ -- 65
+change.case$ -- 846
+chr.to.int$ -- 65
+cite$ -- 65
+duplicate$ -- 906
+empty$ -- 1855
+format.name$ -- 1141
+if$ -- 6786
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 66
-newline$ -- 322
-num.names$ -- 192
-pop$ -- 697
+missing$ -- 67
+newline$ -- 327
+num.names$ -- 195
+pop$ -- 715
 preamble$ -- 1
-purify$ -- 832
+purify$ -- 850
 quote$ -- 0
-skip$ -- 665
+skip$ -- 675
 stack$ -- 0
-substring$ -- 1960
-swap$ -- 66
+substring$ -- 1970
+swap$ -- 67
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 378
+type$ -- 384
 warning$ -- 0
-while$ -- 186
+while$ -- 188
 width$ -- 0
-write$ -- 829
+write$ -- 841
+(There were 2 warnings)

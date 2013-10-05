@@ -135,6 +135,13 @@ Fournier-Level, A., Korte, A., Cooper, M., Nordborg, M., Schmitt, J., and
 \newblock A map of local adaptation in arabidopsis thaliana.
 \newblock {\em Science}, 334(6052):86--89.
 
+\bibitem[Gerke et~al., 2013]{Gerke2013}
+Gerke, J.~P., Edwards, J.~W., Guill, K.~E., Ross-Ibarra, J., and McMullen,
+  M.~D. (2013).
+\newblock The genomic impacts of drift and selection for hybrid performance in
+  maize.
+\newblock {\em http://arxiv.org/abs/1307.7313}.
+
 \bibitem[Gibson, 2012]{Gibson2012}
 Gibson, G. (2012).
 \newblock Rare and common variants: twenty arguments.
@@ -355,13 +362,6 @@ Simons, Y.~B., Turchin, M.~C., and Pritchard, J.~K. (2013).
   history.
 \newblock {\em http://arxiv.org/abs/1305.2061}.
 
-\bibitem[Slotte et~al., 2010]{Slotte2010}
-Slotte, T., Foxe, J.~P., Hazzouri, K.~M., and Wright, S.~I. (2010).
-\newblock Genome-wide evidence for efficient positive and purifying selection
-  in capsella grandiflora, a plant species with a large effective population
-  size.
-\newblock {\em Mol Biol Evol}, 27(8):1813--21.
-
 \bibitem[Smigrodzki et~al., 2004]{Smigrodzki2004}
 Smigrodzki, R., Parks, J., and Parker, W.~D. (2004).
 \newblock High frequency of mitochondrial complex i mutations in parkinson's
@@ -421,6 +421,14 @@ Whitlock, M.~C., Grisworld, C.~K., and Peters, A.~D. (2003).
 \newblock Compensating for meltdown: The critical effective size of a
   population with deleterious and compendatory mutations.
 \newblock {\em Ann. Zool. Fennici}, 40:169--183.
+
+\bibitem[Yu et~al., 2006]{Yu2006}
+Yu, J., Pressoir, G., Briggs, W.~H., Vroh~Bi, I., Yamasaki, M., Doebley, J.~F.,
+  McMullen, M.~D., Gaut, B.~S., Nielsen, D.~M., Holland, J.~B., Kresovich, S.,
+  and Buckler, E.~S. (2006).
+\newblock A unified mixed-model method for association mapping that accounts
+  for multiple levels of relatedness.
+\newblock {\em Nat Genet}, 38(2):203--8.
 
 \bibitem[Zhu et~al., 2004]{Zhu2004}
 Zhu, Y., Spitz, M., Amos, C., Lin, J., Schabath, M., and Wu, X. (2004).

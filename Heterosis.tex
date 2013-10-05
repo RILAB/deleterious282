@@ -15,6 +15,7 @@
 \geometry{a4paper} 
 \bibliographystyle{apalike}
 
+
 %Command for Edits
 \newcommand{\sme}[1]{\textcolor{red}{\bf #1}}
 \newcommand{\jri}[1]{\textcolor{blue}{\bf #1}}
@@ -131,7 +132,7 @@ where $\hat{g_{ij}}$, $\hat{g_{i}}$ and $\hat{g_{j}}$ are the genetic values of 
 
 \subsubsection*{Association mapping}
 
-SNP association with the genetic values of the inbred lines were tested,\sme{with the R package EMMA \citep{Kang2008}, following} the mixed linear model:
+SNP association with the genetic values of the inbred lines were tested,\sme{with the R package EMMA \citep{Kang2008}, following a} mixed linear model \sme{similar to \citet{Yu2006}}:
 %
 \[\mathbf{\hat{g}}=\mathbf{1}\mu + M\vartheta +S\beta +Z\mathbf{u}+\mathbf{\varepsilon}\]
 %
@@ -165,14 +166,14 @@ We then took advantage of recently published genotyping-by-sequencing \citep[GBS
 % -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 
 Across all lines, the derived site frequency spectrum (SFS) of coding SNPs showed an excess of rare variants compared to neutral expectations, with 45\% of deleterious SNPs occurring at derived frequencies less than 5\% in the SFS across all lines. 
-Even so, non-synonymous SNPs showed an excess of rare variants when compared to synonymous SNPs (Mann-Whitney U test p-value $<10^{-15}$; Figure~\ref{sfs_non_syn}-A), and predicted deleterious SNPs showed a marked excess of rare variants compared to other non-synonymous variants (Mann-Whitney U test p-value $<10^{-15}$; Figure~\ref{sfs_non_syn}-B). These observations are consistent with the action of weak purifying selection \citep{Cummings1998,Fay2001} and provide a measure of independent corroboration of the utility of MAPP and SIFT in predicting deleterious variants.
+Even so, non-synonymous SNPs showed an excess of rare variants when compared to synonymous SNPs (Mann-Whitney U test p-value $<10^{-15}$), and predicted deleterious SNPs showed a marked excess of rare variants compared to other non-synonymous variants (Mann-Whitney U test p-value $<10^{-15}$) \sme{and to synonymous SNPs (Mann-Whitney U test p-value $<10^{-15}$; Figure~\ref{sfs_non_syn})}. \sme{Furthermore, non-synonymous non-deleterious variants showed a similar distribution with synonymous variants (Mann-Whitney U test p-value$=0.07$)}. These observations are consistent with the action of weak purifying selection \citep{Cummings1998,Fay2001} and provide a measure of independent corroboration of the utility of MAPP and SIFT in predicting deleterious variants.
 
 % SFS figure
 %-------------------------------------------------------------------
 \begin{figure*}[!b]
   \begin{center}
    \includegraphics[width=150mm]{SFS.png}
-    \caption{Derived site frequency spectrum of synonymous \emph{vs} non-synonymous SNPs (left plot) and non-synonymous non-deleterious \emph{vs} non-synonymous deleterious SNPs (right plot). \emph{Tripsacum} was used as outgroup for identifying the derived allele.} 
+    \caption{Derived site frequency spectrum of synonymous,  non-synonymous  non-deleterious and non-synonymous deleterious SNPs. \emph{Tripsacum} was used as outgroup for identifying the derived allele.} 
 \label{sfs_non_syn}
   \end{center}
 \end{figure*}
@@ -191,7 +192,7 @@ Although most predicted deleterious alleles were rare, 923 were found segregatin
 \end{figure*}
 %-------------------------------------------------------------------
 
-The proportion of genic SNPs predicted to be deleterious appeared relatively uniform (Figure \ref{non_syn_chr1} and  Supplemental Figure \ref{non_syn_chr1cM}) across the genome, with only a very low correlation  observed with recombination rate (Pearson's $r$ of 0.06; p-value =$0.005$).  Explicit comparison of 1,778 non-synonymous pericentromeric ($\pm$ 5 cM around the functional centromere) SNPs did not show an elevated proportion of predicted deleterious SNPs  in comparison to the whole genome (Fisher's Exact Test p-value $= 0.68$). 
+The proportion of genic SNPs predicted to be deleterious appeared relatively uniform (Figure \ref{non_syn_chr1} and  Supplemental Figure \ref{non_syn_chr1cM}) across the genome, with only a very low correlation  observed with recombination rate (Pearson's $r$ of 0.06; p-value =$0.005$), \sme{estimated based on the genetic distance between markers on the IBM (Intermated B73xMo17) genetic map \citep{Gerke2013}}.  Explicit comparison of 1,778 non-synonymous pericentromeric ($\pm$ 5 cM around the functional centromere) SNPs did not show an elevated proportion of predicted deleterious SNPs  in comparison to the whole genome (Fisher's Exact Test p-value $= 0.68$) \sme{and no correlation was observed between gene density and the proportion of predicted deleterious mutation in 1 Mega base windows}. 
 The negative correlation between recombination and residual heterozygosity observed in recombinant inbred lines of the maize nested association mapping population has been attributed to the inefficiency of selection against deleterious alleles in low recombination regions of the genome \citep{McMullen2009,Gore2009}. 
 Our results do not provide strong support for this explanation, perhaps suggesting that recombination in these regions over longer periods of time is sufficient to avoid the accumulation of deleterious alleles. Consistent with this idea, while regions of the \emph{Drosophila} genome completely lacking in recombination showed a severe reduction in the efficacy of selection, little difference was observed between regions with high and low rates of recombination \citep{Haddrill2007}.
 
@@ -247,28 +248,28 @@ To investigate the contribution of predicted deleterious alleles to observed lev
 \begin{table*}[!t]
   \begin{center}
 
-    \caption[]{Total number of significant SNPs \sme{in genic regions} (\emph{n}) and fold enrichment (\emph{f}) for loci with deleterious mutations in population A. Numbers marked with ``*'' are statistically significant \sme{(Fisher's exact test p-value$<0.05$)}.}
+    \caption[]{Total number of significant loci \sme{in genic regions} (\emph{n}) and fold enrichment (\emph{f}) for loci with deleterious mutations in population A. Numbers marked with ``*'' are statistically significant \sme{(Fisher's exact test p-value$<0.05$)}.}
 {\fontsize{10}{10}\sf
       \begin{tabular}{l|rr|rr|rr} 
 \toprule
 \multicolumn{1}{c}{}	&	\multicolumn{2}{c}{Inbreds}	&	\multicolumn{2}{c}{BPH}	&	\multicolumn{2}{c}{MPH}	\\	\hline 
 Traits	& 	\multicolumn{1}{c}{\emph{n}} 	& 	\multicolumn{1}{c|}{\emph{f}}	& \multicolumn{1}{c}{\emph{n}} 	& 	\multicolumn{1}{c}{\emph{f}} 		& \multicolumn{1}{c}{\emph{n}} 	& 	\multicolumn{1}{c}{\emph{f}} 		\\	\hline \hline  
-DTT 	& 	475 	& 	1.05 	& 	3372 	& 	1.15* 	& 	1123 	& 	1.12	\\
-TSLLEN 	& 	458 	& 	0.81 	& 	297 	& 	1.21 	& 	365 	& 	1.16	\\
-TSLBCHCNT 	& 	300 	& 	0.98 	& 	4077 	& 	0.98 	& 	1257 	& 	1.12	\\
-TSLANG 	& 	244 	& 	1.11 	& 	490 	& 	0.93 	& 	646 	& 	1.18	\\
-PLTHT 	& 	282 	& 	0.92 	& 	18068 	& 	0.98 	& 	9712 	& 	0.93	\\
-UPLFANG 	& 	415 	& 	1.20 	& 	8927 	& 	0.99 	& 	2266 	& 	1.12	\\
-LFWDT 	& 	289 	& 	1.21 	& 	1064 	& 	1.16 	& 	1051 	& 	1.01	\\
-LFLEN 	& 	389 	& 	1.14 	& 	4256 	& 	0.93 	& 	2257 	& 	1.07	\\
-KNLHGT 	& 	292 	& 	1.10 	& 	8752 	& 	1.08 	& 	4512 	& 	1.01	\\
-RPR 	& 	258 	& 	0.79 	& 	443 	& 	1.04 	& 	375 	& 	0.93	\\
-PLTYLD 	& 	257 	& 	1.50 	& 	7440 	& 	1.12* 	& 	7007 	& 	1.14*	\\
-EARLGH 	& 	231 	& 	0.89 	& 	605 	& 	1.11* 	& 	907 	& 	1.00	\\	
-10KWT 	& 	298 	& 	1.29 	& 	709 	& 	1.15 	& 	761 	& 	1.30	\\
-COBDIA 	& 	219 	& 	1.04 	& 	4363 	& 	1.16* 	& 	405 	& 	0.88	\\
-COBWT 	& 	228 	& 	1.09 	& 	1746 	& 	0.93 	& 	519 	& 	0.69	\\
-TOTKNLWT 	& 	256 	& 	0.88 	& 	3781 	& 	0.98 	& 	2045 	& 	0.95	\\
+Days to tasseling 	& 	475 	& 	1.05 	& 	3372 	& 	1.15* 	& 	1123 	& 	1.12	\\
+Tassel length 	& 	458 	& 	0.81 	& 	297 	& 	1.21 	& 	365 	& 	1.16	\\
+Tassel branch count	 	& 	300 	& 	0.98 	& 	4077 	& 	0.98 	& 	1257 	& 	1.12	\\
+Tassel angle 	& 	244 	& 	1.11 	& 	490 	& 	0.93 	& 	646 	& 	1.18	\\
+Plant height 	& 	282 	& 	0.92 	& 	18068 	& 	0.98 	& 	9712 	& 	0.93	\\
+Upper leaf angle 	& 	415 	& 	1.20 	& 	8927 	& 	0.99 	& 	2266 	& 	1.12	\\
+Leaf width  	& 	289 	& 	1.21 	& 	1064 	& 	1.16 	& 	1051 	& 	1.01	\\
+Leaf length 	& 	389 	& 	1.14 	& 	4256 	& 	0.93 	& 	2257 	& 	1.07	\\
+Kernel height 	& 	292 	& 	1.10 	& 	8752 	& 	1.08 	& 	4512 	& 	1.01	\\
+Stem puncture resistance 	& 	258 	& 	0.79 	& 	443 	& 	1.04 	& 	375 	& 	0.93	\\
+Plant yield  	& 	257 	& 	1.50 	& 	7440 	& 	1.12* 	& 	7007 	& 	1.14*	\\
+Ear length 	& 	231 	& 	0.89 	& 	605 	& 	1.11* 	& 	907 	& 	1.00	\\	
+10 kernel weight 	& 	298 	& 	1.29 	& 	709 	& 	1.15 	& 	761 	& 	1.30	\\
+Cob diameter 	& 	219 	& 	1.04 	& 	4363 	& 	1.16* 	& 	405 	& 	0.88	\\
+Cob weight  	& 	228 	& 	1.09 	& 	1746 	& 	0.93 	& 	519 	& 	0.69	\\
+Kernel weight 	& 	256 	& 	0.88 	& 	3781 	& 	0.98 	& 	2045 	& 	0.95	\\
 \bottomrule
       \end{tabular}
 }
@@ -290,28 +291,28 @@ We posit that the observed excess of significant associations in genes with pred
 %-------------------------------------------------------------------
 \begin{table*}[!t]
   \begin{center}
-    \caption[]{Total number of genes with significant SNPs (\emph{n}) and fold enrichment for genes with predicted deleterious SNPs(\emph{f}) in population A. Numbers marked with ``*'' are statistically significant \sme{(Fisher's exact test p-value$<0.05$)}.}
+    \caption[]{Total number of genes with significant loci (\emph{n}) and fold enrichment for genes with predicted deleterious SNPs(\emph{f}) in population A. Numbers marked with ``*'' are statistically significant \sme{(Fisher's exact test p-value$<0.05$)}.}
 {\fontsize{10}{10}\sf
       \begin{tabular}{l|rr|rr|rr} 
 \toprule
 \multicolumn{1}{c}{}	&	\multicolumn{2}{c}{Inbreds}	&	\multicolumn{2}{c}{BPH}	&	\multicolumn{2}{c}{MPH}	\\	\hline 
 Traits	& 	\multicolumn{1}{c}{\emph{n}} 	& 	\multicolumn{1}{c|}{\emph{f}}	& \multicolumn{1}{c}{\emph{n}} 	& 	\multicolumn{1}{c}{\emph{f}} 		& \multicolumn{1}{c}{\emph{n}} 	& 	\multicolumn{1}{c}{\emph{f}} 		\\	\hline \hline 
-DTT	&	176	&	1.11	&	1137	&	1.12*	&	429	&	1.15*		\\
-TSLLEN	&	173	&	1.08	&	128	&	1.14	&	154	&	1.20	\\
-TSLBCHCNT	&	114	&	1.02	&	1257	&	1.13*	&	472	&	1.14*		\\
-TSLANG	&	103	&	1.03	&	177	&	1.10	&	254	&	1.15	\\
-PLTHT	&	128	&	1.22	&	4529	&	1.10*	&	2741	&	1.10*	\\
-UPLFANG	&	166	&	1.13	&	2553	&	1.11*	&	810	&	1.15*	\\
-LFWDT	&	112	&	1.27	&	379	&	1.05	&	375	&	1.14	\\
-LFLEN	&	141	&	1.18	&	1290	&	1.13*	&	821	&	1.20*	\\
-KNLHGT	&	123	&	1.09	&	2633	&	1.13*	&	1506	&	1.14	\\
-RPR	&	99	&	1.24	&	164	&	1.10	&	145	&	1.07	\\
-PLTYLD	&	117	&	1.22	&	2440	&	1.14*	&	2302	&	1.14*		\\
-EARLGH	&	84	&	1.02	&	230	&	1.20	&	333	&	1.15	\\
-10KWT	&	137	&	1.18	&	288	&	1.17	&	308	&	1.13	\\
-COBDIA	&	90	&	1.10	&	1419	&	1.13*	&	162	&	1.12	\\
-COBWT	&	99	&	1.19	&	548	&	1.07	&	176	&	1.13	\\
-TOTKNLWT	&	101	&	1.18	&	1228	&	1.11*	&	714	&	1.07	\\
+Days to tasseling	&	176	&	1.11	&	1137	&	1.12*	&	429	&	1.15*		\\
+Tassel length	&	173	&	1.08	&	128	&	1.14	&	154	&	1.20	\\
+Tassel branch count	&	114	&	1.02	&	1257	&	1.13*	&	472	&	1.14*		\\
+Tassel angle	&	103	&	1.03	&	177	&	1.10	&	254	&	1.15	\\
+Plant height	&	128	&	1.22	&	4529	&	1.10*	&	2741	&	1.10*	\\
+Upper leaf angle	&	166	&	1.13	&	2553	&	1.11*	&	810	&	1.15*	\\
+Leaf width	&	112	&	1.27	&	379	&	1.05	&	375	&	1.14	\\
+Leaf length	&	141	&	1.18	&	1290	&	1.13*	&	821	&	1.20*	\\
+Kernel height	&	123	&	1.09	&	2633	&	1.13*	&	1506	&	1.14	\\
+Stem puncture resistance		&	99	&	1.24	&	164	&	1.10	&	145	&	1.07	\\
+Plant yield		&	117	&	1.22	&	2440	&	1.14*	&	2302	&	1.14*		\\
+Ear length		&	84	&	1.02	&	230	&	1.20	&	333	&	1.15	\\
+10 kernel weight 	&	137	&	1.18	&	288	&	1.17	&	308	&	1.13	\\
+Cob diamete	&	90	&	1.10	&	1419	&	1.13*	&	162	&	1.12	\\
+Cob weight	&	99	&	1.19	&	548	&	1.07	&	176	&	1.13	\\
+Kernel weight	&	101	&	1.18	&	1228	&	1.11*	&	714	&	1.07	\\
 \bottomrule
       \end{tabular}
 }
@@ -327,7 +328,8 @@ The weak expected effects of these deleterious loci, combined with their low fre
 % ACKNOWLEGMENTS
 %----------------------------------------
 \subsubsection*{Acknowledgments}
-We would like to thank S. Flint-Garcia and S. Takuno for help with data analysis, E.S. Buckler for early access to the genotyping data, C. Romay and J. Glaubitz for bioinformatics support, and G. Coop, J. Gerke, P. Morrell, P. Ralph, and O. Smith for helpful comments. 
+We would like to thank S. Flint-Garcia and S. Takuno for help with data analysis, E.S. Buckler for early access to the genotyping data, C. Romay and J. Glaubitz for bioinformatics support, and G. Coop, J. Gerke, P. Morrell, P. Ralph, and O. Smith for helpful comments, 
+\sme{and two anonymous reviewers for their constructive comments.} 
 This project was supported by Agriculture and Food Research Initiative Competitive Grant 2009-01864 from the USDA National Institute of Food and Agriculture as well as a grant from DuPont Pioneer. 
 
 %----------------------------------------
@@ -416,7 +418,8 @@ Plant height (cm)	&	PLTHT	&	A \& B	\\
 Upper leaf angle	&	UPLFANG	&	A	\\
 Leaf width (cm)	&	LFWDT	&	A	\\
 Leaf length (cm)	&	LFLEN	&	A	\\
-Kernel heigth	&	KNLHGT	&	A	\\
+Kernel height	&	KNLHGT	&	A	\\
+Kernel weight 	&	TOTKNLWT	&	A	\\
 Stem puncture resistance (kg/section)	&	RPR	&	A	\\
 Plant yield (g/plant)	&	PLTYLD	&	A	\\
 Ear length (cm)	&	EARLGH	&	A \& B	\\
@@ -487,7 +490,7 @@ Syntenic genes		&	45,412 (7,745)	&	32,222 (5,488)	&	-	\\
 %-------------------------------------------------------------------
 \begin{table*}[ht]
   \begin{center}
-    \caption[]{Total number of significant SNPs \sme{in genic regions}(\emph{n}) and fold enrichment (\emph{f}) for loci with deleterious mutations in population B. Numbers marked with ``*'' are statistically significant \sme{(Fisher's exact test p-value$<0.05$)}.}
+    \caption[]{Total number of significant SNPs \sme{in genic regions }(\emph{n}) and fold enrichment (\emph{f}) for loci with deleterious mutations in population B. Numbers marked with ``*'' are statistically significant \sme{(Fisher's exact test p-value$<0.05$)}.}
 {\fontsize{10}{10}\sf
       \begin{tabular}{l|rr|rr|rr|rr|rr} 
 \toprule

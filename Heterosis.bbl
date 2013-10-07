@@ -19,6 +19,12 @@ Boeckmann, B., Bairoch, A., Apweiler, R., Blatter, M., Estreicher, A.,
   2003.
 \newblock {\em Nucleic Acids Res}, 31(1):365--370.
 
+\bibitem[Brandvain et~al., 2013]{Brandvain2013}
+Brandvain, Y., Slotte, T., Hazzouri, K.~M., Wright, S.~I., and Coop, G. (2013).
+\newblock Genomic identification of founding haplotypes reveals the history of
+  the selfing species capsella rubella.
+\newblock {\em PLoS Genet}, 9(9):e1003754.
+
 \bibitem[Cao et~al., 2011]{Cao2011}
 Cao, J., Schneeberger, K., Ossowski, S., G{\"u}nther, T., Bender, S., Fitz, J.,
   Koenig, D., Lanz, C., Stegle, O., Lippert, C., Wang, X., Ott, F., M{\"u}ller,
@@ -301,6 +307,13 @@ Ng, P.~C. and Henikoff, S. (2006).
 Ohta, T. (1973).
 \newblock Slightly deleterious mutant substitutions in evolution.
 \newblock {\em Nature}, 246:96--98.
+
+\bibitem[Paape et~al., 2013]{Paape2013}
+Paape, T., Bataillon, T., Zhou, P., J, Y. K.~T., Briskine, R., Young, N., and
+  Tiffin, P. (2013).
+\newblock Selection, genome-wide fitness effects and evolutionary rates in the
+  model legume medicago truncatula.
+\newblock {\em Mol Ecol}, 22(13):3525--3538.
 
 \bibitem[Pritchard et~al., 2000]{Pritchard2000}
 Pritchard, J.~K., Stephens, M., and Donnelly, P. (2000).

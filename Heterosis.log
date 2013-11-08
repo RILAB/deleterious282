@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  7 NOV 2013 15:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  8 NOV 2013 11:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -536,7 +536,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 
 
 
-Overfull \hbox (0.35875pt too wide) in paragraph at lines 283--285
+Overfull \hbox (0.35875pt too wide) in paragraph at lines 283--287
 []\OT1/cmr/m/n/12 Results for as-so-ci-a-tion be-tween SNP het-erozy-gos-ity an
 d het-ero-sis showed highly
  []
@@ -556,7 +556,7 @@ la-tion his-tory.
  []
 
 [29] [30]) [31]
-Overfull \hbox (22.60431pt too wide) in paragraph at lines 355--356
+Overfull \hbox (22.60431pt too wide) in paragraph at lines 357--358
 \OT1/cmr/m/n/12 CI91B, CM174, CM37, CM7, CML10, CML103, CML108, CML11, CML14, C
 ML154Q,
  []
@@ -564,108 +564,109 @@ ML154Q,
 [32
 
 ]
-Overfull \hbox (1.16698pt too wide) in paragraph at lines 358--359
+Overfull \hbox (1.16698pt too wide) in paragraph at lines 360--361
 \OT1/cmr/m/n/12 MO47, MS1334, MS153, MS71, N192, N28HT, N6, NC262, NC264, NC294
 , NC306,
  []
 
-<FigureS1.png, id=486, 720.7728pt x 316.5426pt>
+<FigureS1.png, id=488, 720.7728pt x 316.5426pt>
 File: FigureS1.png Graphic file (type png)
  <use FigureS1.png>
-Package pdftex.def Info: FigureS1.png used on input line 364.
+Package pdftex.def Info: FigureS1.png used on input line 366.
 (pdftex.def)             Requested size: 426.79134pt x 187.43954pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 364--365
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 366--367
  [] 
  []
 
 [33 <./FigureS1.png>]
-Overfull \hbox (29.26103pt too wide) in paragraph at lines 444--461
+Overfull \hbox (29.26103pt too wide) in paragraph at lines 446--463
 [][]
  []
 
-<VennDiagram.png, id=493, 693.792pt x 256.7994pt>
+<VennDiagram.png, id=495, 693.792pt x 256.7994pt>
 File: VennDiagram.png Graphic file (type png)
  <use VennDiagram.png>
-Package pdftex.def Info: VennDiagram.png used on input line 544.
+Package pdftex.def Info: VennDiagram.png used on input line 546.
 (pdftex.def)             Requested size: 426.79134pt x 157.97183pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 544--545
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 546--547
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<PerDelGenome_ch1cM.jpg, id=494, 715.67375pt x 309.155pt>
+<PerDelGenome_ch1cM.jpg, id=496, 715.67375pt x 309.155pt>
 File: PerDelGenome_ch1cM.jpg Graphic file (type jpg)
 
 <use PerDelGenome_ch1cM.jpg>
-Package pdftex.def Info: PerDelGenome_ch1cM.jpg used on input line 555.
+Package pdftex.def Info: PerDelGenome_ch1cM.jpg used on input line 557.
 (pdftex.def)             Requested size: 398.33858pt x 172.07365pt.
- <PCA.png, id=495, 675.4836pt x 288.5982pt>
+ <PCA.png, id=497, 675.4836pt x 288.5982pt>
 File: PCA.png Graphic file (type png)
 
 <use PCA.png>
-Package pdftex.def Info: PCA.png used on input line 566.
+Package pdftex.def Info: PCA.png used on input line 568.
 (pdftex.def)             Requested size: 426.79134pt x 182.34625pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 566--567
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 568--569
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<BoxplotBPH.png, id=496, 599.3592pt x 463.4916pt>
+<BoxplotBPH.png, id=498, 599.3592pt x 463.4916pt>
 File: BoxplotBPH.png Graphic file (type png)
  <use BoxplotBPH.png>
-Package pdftex.def Info: BoxplotBPH.png used on input line 579.
+Package pdftex.def Info: BoxplotBPH.png used on input line 581.
 (pdftex.def)             Requested size: 284.52756pt x 220.03348pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 586.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 588.
 [34] [35] [36] [37 <./VennDiagram.png> <./PerDelGenome_ch1cM.jpg>] [38 <./PCA.p
 ng> <./BoxplotBPH.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 586.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 588.
  (./Heterosis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 586.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 586.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 588.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 588.
 Package rerunfilecheck Info: File `Heterosis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 586.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 588.
  ) 
 Here is how much of TeX's memory you used:
- 8513 strings out of 493488
- 128345 string characters out of 3141326
+ 8515 strings out of 493488
+ 128369 string characters out of 3141326
  245433 words of memory out of 3000000
- 11572 multiletter control sequences out of 15000+200000
- 13661 words of font info for 49 fonts, out of 3000000 for 9000
+ 11573 multiletter control sequences out of 15000+200000
+ 14020 words of font info for 50 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,9n,38p,1650b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/20
-12/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Heterosis.pdf (38 pages, 1558837 bytes).
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Heterosis.pdf (38 pages, 1567993 bytes).
 PDF statistics:
- 611 PDF objects out of 1000 (max. 8388607)
- 530 compressed objects within 6 object streams
+ 616 PDF objects out of 1000 (max. 8388607)
+ 534 compressed objects within 6 object streams
  142 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

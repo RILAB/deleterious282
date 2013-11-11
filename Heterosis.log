@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  11 NOV 2013 12:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  11 NOV 2013 14:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -483,7 +483,7 @@ i / 10 . 1371 / journal . pone . 0007433 .
  []
 
 [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
-<SFS.png, id=292, 682.2288pt x 377.2494pt>
+<SFS.png, id=295, 682.2288pt x 377.2494pt>
 File: SFS.png Graphic file (type png)
  <use SFS.png>
 Package pdftex.def Info: SFS.png used on input line 169.
@@ -493,20 +493,20 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 169--170
  [] 
  []
 
-[12 <./SFS.png>] <PerDelGenome_ch1.jpg, id=307, 722.7pt x 317.185pt>
+[12 <./SFS.png>] <PerDelGenome_ch1.jpg, id=310, 722.7pt x 317.185pt>
 File: PerDelGenome_ch1.jpg Graphic file (type jpg)
 
 <use PerDelGenome_ch1.jpg>
 Package pdftex.def Info: PerDelGenome_ch1.jpg used on input line 181.
 (pdftex.def)             Requested size: 398.33858pt x 174.82494pt.
  [13 <./PerDelGenome_ch1.jpg>]
-<Fst.png, id=331, 606.1044pt x 465.9006pt>
+<Fst.png, id=333, 606.1044pt x 465.9006pt>
 File: Fst.png Graphic file (type png)
  <use Fst.png>
 Package pdftex.def Info: Fst.png used on input line 198.
 (pdftex.def)             Requested size: 256.0748pt x 196.8357pt.
  [14]
-<Fst2.png, id=346, 694.7556pt x 297.2706pt>
+<Fst2.png, id=348, 694.7556pt x 297.2706pt>
 File: Fst2.png Graphic file (type png)
  <use Fst2.png>
 Package pdftex.def Info: Fst2.png used on input line 212.
@@ -516,7 +516,7 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 212--213
  [] 
  []
 
-[15 <./Fst.png>] <joinSFS.png, id=358, 595.5048pt x 499.6266pt>
+[15 <./Fst.png>] <joinSFS.png, id=360, 595.5048pt x 499.6266pt>
 File: joinSFS.png Graphic file (type png)
 
 <use joinSFS.png>
@@ -567,7 +567,7 @@ Overfull \hbox (1.16698pt too wide) in paragraph at lines 356--357
 , NC306,
  []
 
-<FigureS1.png, id=486, 720.7728pt x 316.5426pt>
+<FigureS1.png, id=488, 720.7728pt x 316.5426pt>
 File: FigureS1.png Graphic file (type png)
  <use FigureS1.png>
 Package pdftex.def Info: FigureS1.png used on input line 362.
@@ -582,7 +582,7 @@ Overfull \hbox (29.26103pt too wide) in paragraph at lines 442--459
 [][]
  []
 
-<VennDiagram.png, id=493, 693.792pt x 256.7994pt>
+<VennDiagram.png, id=495, 693.792pt x 256.7994pt>
 File: VennDiagram.png Graphic file (type png)
  <use VennDiagram.png>
 Package pdftex.def Info: VennDiagram.png used on input line 541.
@@ -595,13 +595,13 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 541--542
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<PerDelGenome_ch1cM.jpg, id=494, 715.67375pt x 309.155pt>
+<PerDelGenome_ch1cM.jpg, id=496, 715.67375pt x 309.155pt>
 File: PerDelGenome_ch1cM.jpg Graphic file (type jpg)
 
 <use PerDelGenome_ch1cM.jpg>
 Package pdftex.def Info: PerDelGenome_ch1cM.jpg used on input line 552.
 (pdftex.def)             Requested size: 398.33858pt x 172.07365pt.
- <PCA.png, id=495, 675.4836pt x 288.5982pt>
+ <PCA.png, id=497, 675.4836pt x 288.5982pt>
 File: PCA.png Graphic file (type png)
 
 <use PCA.png>
@@ -615,7 +615,7 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 563--564
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<BoxplotBPH.png, id=496, 599.3592pt x 463.4916pt>
+<BoxplotBPH.png, id=498, 599.3592pt x 463.4916pt>
 File: BoxplotBPH.png Graphic file (type png)
  <use BoxplotBPH.png>
 Package pdftex.def Info: BoxplotBPH.png used on input line 576.
@@ -660,10 +660,10 @@ e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
 012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/20
 12/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Heterosis.pdf (38 pages, 1558513 bytes).
+Output written on Heterosis.pdf (38 pages, 1558567 bytes).
 PDF statistics:
- 611 PDF objects out of 1000 (max. 8388607)
- 530 compressed objects within 6 object streams
+ 613 PDF objects out of 1000 (max. 8388607)
+ 532 compressed objects within 6 object streams
  142 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -163,7 +163,6 @@ INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
-INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT Heterosis.bbl
 INPUT Heterosis.bbl
 INPUT FigureS1.png
@@ -186,7 +185,6 @@ INPUT ./Heterosis.out
 INPUT ./Heterosis.out
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

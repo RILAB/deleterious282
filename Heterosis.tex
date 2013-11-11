@@ -15,9 +15,6 @@
 \geometry{a4paper} 
 \bibliographystyle{apalike}
 
-%Command for Edits
-\newcommand{\sme}[1]{\textcolor{red}{\bf #1}}
-
 %----------------------------------------
 %AUTHORS
 %----------------------------------------
@@ -133,7 +130,7 @@ SNP association with the genetic values of the inbred lines were tested with the
 %
 \[\mathbf{\hat{g}}=\mathbf{1}\mu + M\vartheta +S\beta +Z\mathbf{u}+\mathbf{\varepsilon}\]
 %
-where $\mathbf{\hat{g}}$ is the vector of estimated genetic values for inbred lines, $\mu$ is the mean of $\mathbf{\hat{g}}$, $M$ is the tested SNP, $\vartheta$ is the SNP effect, $S$ are the structure covariates estimated  by \citet{Flint-Garcia2005} using the STRUCTURE software \citep{Pritchard2000}, $\beta$ are the fixed structure effects, $Z$ is an incidence matrix, $\mathbf{u}$ is \sme{a vector of polygenic background effects} assumed to be $\mathcal{N}(0,\sigma_{u}^{2} K)$ and $\varepsilon$ are the model residuals assumed to be $\mathcal{N}(0,\sigma_{\varepsilon}^{2}I)$. 
+where $\mathbf{\hat{g}}$ is the vector of estimated genetic values for inbred lines, $\mu$ is the mean of $\mathbf{\hat{g}}$, $M$ is the tested SNP, $\vartheta$ is the SNP effect, $S$ are the structure covariates estimated  by \citet{Flint-Garcia2005} using the STRUCTURE software \citep{Pritchard2000}, $\beta$ are the fixed structure effects, $Z$ is an incidence matrix, $\mathbf{u}$ is a vector of polygenic background effects assumed to be $\mathcal{N}(0,\sigma_{u}^{2} K)$ and $\varepsilon$ are the model residuals assumed to be $\mathcal{N}(0,\sigma_{\varepsilon}^{2}I)$. 
 The coancestry matrix $K$ among inbred lines was approximated by an identity by state matrix calculated with the SNPs. Only SNPs with a minor allele frequency $\ge$ 0.05 were used for association mapping tests.
 
 In hybrids, we tested the effect of heterozygosity at a given locus on observed heterosis. 
@@ -142,7 +139,7 @@ The association mapping tests were thus carried out between heterozygosity at a 
 %
 \[PH=\mathbf{1}{\mu}'+D\beta +H\vartheta +\mathbf{{\varepsilon }'}\]  \\
 %
-where $PH$ is \sme{the vector of heterosis values }(either $MPH$, $BPH_{max}$ or $BPH_{min}$), ${\mu}'$ is the mean of $PH$, $D$ is the genetic distance between the tester (B73 or Mo17) and each inbred line, $\beta$ is the fixed effect of that distance, $H$ is the tested locus \sme{(1 if heterozygote and 0 if homozygote)}, $\vartheta$ the effect of the locus, and $\mathbf{{\varepsilon}'}$ is the vector of residuals assumed to be $\mathcal{N}(0,\sigma_{ {\varepsilon}'}^{2}I)$.  
+where $PH$ is the vector of heterosis values (either $MPH$, $BPH_{max}$ or $BPH_{min}$), ${\mu}'$ is the mean of $PH$, $D$ is the genetic distance between the tester (B73 or Mo17) and each inbred line, $\beta$ is the fixed effect of that distance, $H$ is the tested locus (1 if heterozygote and 0 if homozygote), $\vartheta$ the effect of the locus, and $\mathbf{{\varepsilon}'}$ is the vector of residuals assumed to be $\mathcal{N}(0,\sigma_{ {\varepsilon}'}^{2}I)$.  
 SNPs were deemed to be statistically significant at $p\leq 0.001$. Analyses were also conducted controlling for a false discovery rate \citep{Benjamini1995} at 20\%.
 
 %----------------------------------------
